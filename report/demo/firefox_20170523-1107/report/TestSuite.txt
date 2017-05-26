@@ -1,0 +1,24 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 5.663 sec <<< FAILURE! - in TestSuite
+googleCheeseExample(demo.Demo1)  Time elapsed: 1.285 sec  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+Unrecognized channel: 53
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'WIN7-SELENIUMGR', ip: '172.29.2.88', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_101'
+Driver info: driver.version: FirefoxDriver
+Command duration or timeout: 372 milliseconds
+	at demo.Demo1.googleCheeseExample(Demo1.java:28)
+Caused by: org.openqa.selenium.WebDriverException: 
+Unrecognized channel: 53
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'WIN7-SELENIUMGR', ip: '172.29.2.88', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_101'
+Driver info: driver.version: FirefoxDriver
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'DNNVU', ip: '169.254.140.181', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: driver.version: FirefoxDriver
+
+clearCookies(demo.Demo1)  Time elapsed: 4.437 sec  <<< FAILURE!
+java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+

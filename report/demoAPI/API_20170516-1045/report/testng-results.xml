@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="1" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="demo suite" duration-ms="3411" started-at="2017-05-16T10:45:50Z" finished-at="2017-05-16T10:45:54Z">
+    <groups>
+    </groups>
+    <test name="demo suite" duration-ms="3411" started-at="2017-05-16T10:45:50Z" finished-at="2017-05-16T10:45:54Z">
+      <class name="restDemo.RestAPI">
+        <test-method status="PASS" signature="test123()[pri:0, instance:restDemo.RestAPI@6a84a97d]" name="test123" is-config="true" duration-ms="10" started-at="2017-05-16T17:45:50Z" finished-at="2017-05-16T17:45:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test123 -->
+        <test-method status="FAIL" signature="API(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:restDemo.RestAPI@6a84a97d]" name="API" duration-ms="49" started-at="2017-05-16T17:45:50Z" data-provider="userData" finished-at="2017-05-16T17:45:50Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at org.testng.internal.ArrayIterator.hasNext(MethodHelper.java:350)
+	at org.testng.internal.Parameters$2.hasNext(Parameters.java:448)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1117)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- API -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:restDemo.RestAPI@6a84a97d]" name="cleanUp" is-config="true" duration-ms="0" started-at="2017-05-16T17:45:54Z" finished-at="2017-05-16T17:45:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- restDemo.RestAPI -->
+    </test> <!-- demo suite -->
+  </suite> <!-- demo suite -->
+</testng-results>

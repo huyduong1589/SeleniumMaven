@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="41.848" tests="2" errors="0" skipped="1" failures="1">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_112\jre\bin"/>
+    <property name="java.vm.version" value="25.112-b15"/>
+    <property name="browser" value="firefox"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="D:\TA\automationFW\myinstall\automationFW\workspace\SeleniumMaven"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="threads" value="1"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="remote" value="false"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="D:\TA\automationFW\myinstall\automationFW\workspace\SeleniumMaven"/>
+    <property name="java.runtime.version" value="1.8.0_112-b15"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_112\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\dmhuy\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="retryOnfail" value="0"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="classworlds.conf" value="D:\Soft\Maven\apache-maven-3.3.9\bin\..\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_112\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\TortoiseSVN\bin;C:\Program Files\nodejs\;C:\Program Files\Java\jdk1.8.0_112\bin;C:\HashiCorp\Vagrant\bin;D:\Soft\Maven\apache-maven-3.3.9\bin;C:\Program Files (x86)\Skype\Phone\; D:\Soft\opencv\build\x64\vc14\bin;C:\Program Files\MATLAB\R2017a\bin;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Users\dmhuy\AppData\Roaming\npm;C:\Ruby23-x64\bin;D:\Soft\Automation\android\android-sdk-windows\tools;D:\Soft\Automation\android\android-sdk-windows\platform-tools;C:\Program Files\Java\jdk1.8.0_112\bin; D:\Soft\opencv\build\x64\vc14\bin;."/>
+    <property name="suite" value="demo"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="6.1"/>
+    <property name="user.home" value="C:\Users\dmhuy"/>
+    <property name="user.timezone" value="Asia/Bangkok"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="dmhuy"/>
+    <property name="java.class.path" value="D:\Soft\Maven\apache-maven-3.3.9\bin\..\boot\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_112\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher verify -Dremote=false -Dbrowser=firefox -DretryOnfail=0 -Dthreads=1 -Dsuite=demo"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_112"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_112\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_112\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_112\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_112\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_112\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_112\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_112\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_112\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_112\jre\classes"/>
+    <property name="sun.stderr.encoding" value="cp437"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="D:\Soft\Maven\apache-maven-3.3.9\bin\.."/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.stdout.encoding" value="cp437"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="googleCheeseExample" classname="demo.Demo1" time="0">
+    <skipped message="expected [true] but found [false]"/>
+    <system-out><![CDATA[2017-05-15 17:35:00 [pool-2-thread-1] INFO  Log listener - Clear log
+2017-05-15 17:35:00 [pool-2-thread-1] INFO  TestResultListener - Started test 'Demo1:googleCheeseExample'
+Report is stored under: D:\TA\automationFW\myinstall\automationFW\workspace\SeleniumMaven/report/demo/firefox_20170515-1034
+2017-05-15 17:35:00 [pool-2-thread-1] INFO  DriverFactory - Creating a new webdriver
+Current URL: https://webmail.tma.com.vn/
+2017-05-15 17:35:20 [pool-2-thread-1] WARN  Retry - Retrying test Demo1:googleCheeseExample with status FAILURE for the 1 time(s).
+]]></system-out>
+    <system-err><![CDATA[1494844502190	geckodriver	INFO	Listening on 127.0.0.1:16964
+1494844502957	geckodriver::marionette	INFO	Starting browser \\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1494844504914	addons.manager	ERROR	startup failed: [Exception... "Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIFile.create]"  nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)"  location: "JS frame :: resource:JavaScript error: resource://gre/modules/AddonManager.jsm, line 1657: NS_ERROR_NOT_INITIALIZED: AddonManager is no//gre/modules/FileUtils.jsm :: FileUtils_getDir :: line 70"  data: no] Stack trace: FileUtils_getDir()@resource://gre/modules/FileUtils.jsm:70 < FileUtils_getFile()@resource://gre/modules/FileUtils.jsm:42 < validateBlocklist()@resource://gre/modules/AddonManager.jsm:671 < startup()@resource://gre/modules/AddonManager.jsm:834 < startup()@resource://gre/modules/AddonManager.jsm:3129 < observe()@resource://gre/components/addonManager.js:65
+t initialized
+1494844508350	Marionette	INFO	Listening on port 59381
+JavaScript error: resource://gre/modules/AddonManager.jsm, line 2570: NS_ERROR_NOT_INITIALIZED: AddonManager is not initialized
+1494844508689	Marionette	WARN	TLS certificate errors will be ignored for this session
+May 15, 2017 5:35:08 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="googleCheeseExample" classname="demo.Demo1" time="15.41">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
+	at demo.Demo1.googleCheeseExample(Demo1.java:39)
+</failure>
+    <system-out><![CDATA[2017-05-15 17:35:20 [pool-2-thread-1] WARN  TestResultListener - Test 'Demo1:googleCheeseExample' SKIPPED
+List: 1
+2017-05-15 17:35:21 [pool-2-thread-1] INFO  Log listener - Clear log
+2017-05-15 17:35:21 [pool-2-thread-1] INFO  TestResultListener - Started test 'Demo1:googleCheeseExample'
+Report is stored under: D:\TA\automationFW\myinstall\automationFW\workspace\SeleniumMaven/report/demo/firefox_20170515-1034
+2017-05-15 17:35:21 [pool-2-thread-1] INFO  DriverFactory - Creating a new webdriver
+Current URL: https://webmail.tma.com.vn/
+2017-05-15 17:35:36 [pool-2-thread-1] INFO  DriverFactory - Using existing webdriver
+2017-05-15 17:35:36 [pool-2-thread-1] INFO  ScreenshotListener - Created screenshot folder at D:\TA\automationFW\myinstall\automationFW\workspace\SeleniumMaven\report\demo\firefox_20170515-1034\screenshots
+2017-05-15 17:35:37 [pool-2-thread-1] INFO  ScreenshotListener - Written screenshot to D:\TA\automationFW\myinstall\automationFW\workspace\SeleniumMaven/report/demo/firefox_20170515-1034\screenshots\googleCheeseExample_Demo1_firefox___.png
+]]></system-out>
+    <system-err><![CDATA[1494844520719	Marionette	INFO	New connections will no longer be accepted
+1494844521952	geckodriver	INFO	Listening on 127.0.0.1:49059
+1494844522213	geckodriver::marionette	INFO	Starting browser \\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1494844523111	addons.manager	ERROR	startup failed: [Exception... "Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIFile.create]"  nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)"  location: "JS frame :: resource://gre/modules/FileUtils.jsm :: FileUtils_getDir :: line 70"  data: no] Stack trace: FileUtils_getDir()@resource://gre/modules/FileUtils.jsm:70 < FileUtils_getFile()@resource://gre/modules/FileUtils.jsm:42 < validateBlocklist()@resource://gre/modules/AddonManager.jsm:671 < startup()@resource://gre/modules/AddonManager.jsm:834 < startup()@resource://gre/modules/AddonManager.jsm:3129 < observe()@resource://gre/components/addonManager.js:65
+JavaScript error: resource://gre/modules/AddonManager.jsm, line 1657: NS_ERROR_NOT_INITIALIZED: AddonManager is not initialized
+1494844525034	Marionette	INFO	Listening on port 59417
+JavaScript error: resource://gre/modules/AddonManager.jsm, line 2570: NS_ERROR_NOT_INITIALIZED: AddonManager is not initialized
+1494844525349	Marionette	WARN	TLS certificate errors will be ignored for this session
+May 15, 2017 5:35:25 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+</testsuite>

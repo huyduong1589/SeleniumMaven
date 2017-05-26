@@ -1,0 +1,11 @@
+{     
+"update":{     },
+"fields":{ 
+       "project":{"id":"10000"},
+	   "summary":"$JiraName$",
+	   "issuetype":{"id":"10000"},
+	   "priority":{"id":"2"},
+	   "customfield_10004":"test",
+	   "description":"This issue for tracking: \n $cause$ \n Log is: $log_name$"
+	   }
+}

@@ -1,0 +1,4 @@
+2017-05-23 18:07:51 [pool-2-thread-1] INFO  TestResultListener - Started test 'Demo1:googleCheeseExample'
+2017-05-23 18:07:51 [pool-2-thread-1] INFO  DriverFactory - Creating a new webdriver
+2017-05-23 18:07:52 [pool-2-thread-1] INFO  DriverFactory - Creating a new webdriver
+2017-05-23 18:07:52 [pool-2-thread-1] ERROR ScreenshotListener - Unable to capture screenshot...

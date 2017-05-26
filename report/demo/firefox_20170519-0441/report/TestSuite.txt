@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 136.785 sec <<< FAILURE! - in TestSuite
+googleCheeseExample(demo.Demo1)  Time elapsed: 66.399 sec  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at demo.Demo1.googleCheeseExample(Demo1.java:43)
+
+googleCheeseExample(demo.Demo2)  Time elapsed: 60.787 sec  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at demo.Demo2.googleCheeseExample(Demo2.java:43)
+

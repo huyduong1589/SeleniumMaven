@@ -1,0 +1,97 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 62.06 sec <<< FAILURE! - in TestSuite
+googleCheeseExample(demo.Demo1)  Time elapsed: 56.808 sec  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+Unable to connect to host 127.0.0.1 on port 7055 after 45000 ms. Firefox console output:
+"name":"Default","description":"The default theme.","creator":"Mozilla","homepageURL":null,"contributors":["Mozilla Contributors"]},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"descriptor":"C:\\Program Files\\Mozilla Firefox\\browser\\extensions\\{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi","installDate":1495506151155,"updateDate":1495506151155,"applyBackgroundUpdates":1,"skinnable":true,"size":8207,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":true,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"53.0.3","maxVersion":"53.0.3"}],"targetPlatforms":[],"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"userPermissions":null}
+1495510180743	addons.xpi	DEBUG	getModTime: Recursive scan of {972ce4c6-7e08-4474-a285-3208198ce6fd}
+1495510180745	DeferredSave.extensions.json	DEBUG	Save changes
+1495510180745	addons.xpi	DEBUG	Updating database with changes to installed add-ons
+1495510180745	addons.xpi-utils	DEBUG	Updating add-on states
+1495510180746	addons.xpi-utils	DEBUG	Writing add-ons list
+1495510180751	addons.xpi	DEBUG	Registering manifest for C:\Program Files\Mozilla Firefox\browser\features\aushelper@mozilla.org.xpi
+1495510180751	addons.xpi	DEBUG	Calling bootstrap method startup on aushelper@mozilla.org version 2.0
+1495510180754	addons.xpi	DEBUG	Registering manifest for C:\Program Files\Mozilla Firefox\browser\features\e10srollout@mozilla.org.xpi
+1495510180755	addons.xpi	DEBUG	Calling bootstrap method startup on e10srollout@mozilla.org version 1.14
+1495510180756	addons.xpi	DEBUG	Registering manifest for C:\Program Files\Mozilla Firefox\browser\features\firefox@getpocket.com.xpi
+1495510180757	addons.xpi	DEBUG	Calling bootstrap method startup on firefox@getpocket.com version 1.0.5
+1495510180759	addons.xpi	DEBUG	Registering manifest for C:\Program Files\Mozilla Firefox\browser\features\webcompat@mozilla.org.xpi
+1495510180759	addons.xpi	DEBUG	Calling bootstrap method startup on webcompat@mozilla.org version 1.0
+1495510180764	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
+1495510180766	addons.manager	DEBUG	Provider finished startup: XPIProvider
+1495510180767	addons.manager	DEBUG	Starting provider: LightweightThemeManager
+1495510180768	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
+1495510180768	addons.manager	DEBUG	Provider finished startup: LightweightThemeManager
+1495510180769	addons.manager	DEBUG	Starting provider: GMPProvider
+1495510180778	addons.manager	DEBUG	Registering shutdown blocker for GMPProvider
+1495510180778	addons.manager	DEBUG	Provider finished startup: GMPProvider
+1495510180778	addons.manager	DEBUG	Starting provider: PluginProvider
+1495510180778	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
+1495510180779	addons.manager	DEBUG	Provider finished startup: PluginProvider
+1495510180780	addons.manager	DEBUG	Completed startup sequence
+1495510183661	DeferredSave.extensions.json	DEBUG	Starting write
+1495510183671	addons.manager	DEBUG	Starting provider: <unnamed-provider>
+1495510183672	addons.manager	DEBUG	Registering shutdown blocker for <unnamed-provider>
+1495510183672	addons.manager	DEBUG	Provider finished startup: <unnamed-provider>
+1495510184090	addons.repository	DEBUG	No addons.json found.
+1495510184090	DeferredSave.addons.json	DEBUG	Save changes
+1495510184094	DeferredSave.addons.json	DEBUG	Starting timer
+1495510184227	addons.manager	DEBUG	Starting provider: PreviousExperimentProvider
+1495510184227	addons.manager	DEBUG	Registering shutdown blocker for PreviousExperimentProvider
+1495510184228	addons.manager	DEBUG	Provider finished startup: PreviousExperimentProvider
+1495510184232	DeferredSave.addons.json	DEBUG	Starting write
+1495510184318	DeferredSave.extensions.json	DEBUG	Write succeeded
+1495510184320	addons.xpi-utils	DEBUG	XPI Database saved, setting schema version preference to 19
+1495510184393	DeferredSave.addons.json	DEBUG	Write succeeded
+
+Command duration or timeout: 48.02 seconds
+	at demo.Demo1.googleCheeseExample(Demo1.java:28)
+Caused by: org.openqa.selenium.remote.ErrorHandler$UnknownServerException: 
+Unable to connect to host 127.0.0.1 on port 7055 after 45000 ms. Firefox console output:
+"name":"Default","description":"The default theme.","creator":"Mozilla","homepageURL":null,"contributors":["Mozilla Contributors"]},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"descriptor":"C:\\Program Files\\Mozilla Firefox\\browser\\extensions\\{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi","installDate":1495506151155,"updateDate":1495506151155,"applyBackgroundUpdates":1,"skinnable":true,"size":8207,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":true,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"53.0.3","maxVersion":"53.0.3"}],"targetPlatforms":[],"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"userPermissions":null}
+1495510180743	addons.xpi	DEBUG	getModTime: Recursive scan of {972ce4c6-7e08-4474-a285-3208198ce6fd}
+1495510180745	DeferredSave.extensions.json	DEBUG	Save changes
+1495510180745	addons.xpi	DEBUG	Updating database with changes to installed add-ons
+1495510180745	addons.xpi-utils	DEBUG	Updating add-on states
+1495510180746	addons.xpi-utils	DEBUG	Writing add-ons list
+1495510180751	addons.xpi	DEBUG	Registering manifest for C:\Program Files\Mozilla Firefox\browser\features\aushelper@mozilla.org.xpi
+1495510180751	addons.xpi	DEBUG	Calling bootstrap method startup on aushelper@mozilla.org version 2.0
+1495510180754	addons.xpi	DEBUG	Registering manifest for C:\Program Files\Mozilla Firefox\browser\features\e10srollout@mozilla.org.xpi
+1495510180755	addons.xpi	DEBUG	Calling bootstrap method startup on e10srollout@mozilla.org version 1.14
+1495510180756	addons.xpi	DEBUG	Registering manifest for C:\Program Files\Mozilla Firefox\browser\features\firefox@getpocket.com.xpi
+1495510180757	addons.xpi	DEBUG	Calling bootstrap method startup on firefox@getpocket.com version 1.0.5
+1495510180759	addons.xpi	DEBUG	Registering manifest for C:\Program Files\Mozilla Firefox\browser\features\webcompat@mozilla.org.xpi
+1495510180759	addons.xpi	DEBUG	Calling bootstrap method startup on webcompat@mozilla.org version 1.0
+1495510180764	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
+1495510180766	addons.manager	DEBUG	Provider finished startup: XPIProvider
+1495510180767	addons.manager	DEBUG	Starting provider: LightweightThemeManager
+1495510180768	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
+1495510180768	addons.manager	DEBUG	Provider finished startup: LightweightThemeManager
+1495510180769	addons.manager	DEBUG	Starting provider: GMPProvider
+1495510180778	addons.manager	DEBUG	Registering shutdown blocker for GMPProvider
+1495510180778	addons.manager	DEBUG	Provider finished startup: GMPProvider
+1495510180778	addons.manager	DEBUG	Starting provider: PluginProvider
+1495510180778	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
+1495510180779	addons.manager	DEBUG	Provider finished startup: PluginProvider
+1495510180780	addons.manager	DEBUG	Completed startup sequence
+1495510183661	DeferredSave.extensions.json	DEBUG	Starting write
+1495510183671	addons.manager	DEBUG	Starting provider: <unnamed-provider>
+1495510183672	addons.manager	DEBUG	Registering shutdown blocker for <unnamed-provider>
+1495510183672	addons.manager	DEBUG	Provider finished startup: <unnamed-provider>
+1495510184090	addons.repository	DEBUG	No addons.json found.
+1495510184090	DeferredSave.addons.json	DEBUG	Save changes
+1495510184094	DeferredSave.addons.json	DEBUG	Starting timer
+1495510184227	addons.manager	DEBUG	Starting provider: PreviousExperimentProvider
+1495510184227	addons.manager	DEBUG	Registering shutdown blocker for PreviousExperimentProvider
+1495510184228	addons.manager	DEBUG	Provider finished startup: PreviousExperimentProvider
+1495510184232	DeferredSave.addons.json	DEBUG	Starting write
+1495510184318	DeferredSave.extensions.json	DEBUG	Write succeeded
+1495510184320	addons.xpi-utils	DEBUG	XPI Database saved, setting schema version preference to 19
+1495510184393	DeferredSave.addons.json	DEBUG	Write succeeded
+
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'DNNVU', ip: '169.254.140.181', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: driver.version: FirefoxDriver
+

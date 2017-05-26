@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="demo suite" parallel="methods" thread-count="1" data-provider-thread-count="1">
+  <listeners>
+      <listener class-name="automation.listeners.RetryListener"/>
+      <listener class-name="automation.listeners.TestListener"/>
+      <listener class-name="automation.listeners.TestResultListener"/>
+      <listener class-name="automation.listeners.LogListener"/>
+      <listener class-name="org.imaginea.jenkins.plugins.testinprogress.testng.TestNGProgressRunListener"/>
+  </listeners>
+  <test name="demo suite">
+    <parameter name="waitTime" value="10"/> 
+    <!--  <packages>
+      <package name="automation.demo">
+      </package>
+    </packages>-->
+    <classes>
+    <class name="restDemo.RestAPI"></class>
+<!--     <class name="demo.winium"></class>  -->
+    </classes>
+  </test>
+</suite>

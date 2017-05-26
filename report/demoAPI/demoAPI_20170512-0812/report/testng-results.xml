@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="2" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="demo suite" duration-ms="8527" started-at="2017-05-12T08:12:56Z" finished-at="2017-05-12T08:13:04Z">
+    <groups>
+    </groups>
+    <test name="demo suite" duration-ms="8527" started-at="2017-05-12T08:12:56Z" finished-at="2017-05-12T08:13:04Z">
+      <class name="restDemo.RestAPI">
+        <test-method status="PASS" signature="test123()[pri:0, instance:restDemo.RestAPI@247d8ae]" name="test123" is-config="true" duration-ms="15" started-at="2017-05-12T15:12:56Z" finished-at="2017-05-12T15:12:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test123 -->
+        <test-method status="PASS" signature="API(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:restDemo.RestAPI@247d8ae]" name="API" duration-ms="4435" started-at="2017-05-12T15:12:56Z" data-provider="userData" finished-at="2017-05-12T15:13:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://restcountries.eu/]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[rest/v1/name/vietnam]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[GET]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[name
+capital
+region
+Hanoi]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[var1.1=0.capital
+var1.2=0.latlng[1]
+var1.3=0.borders[2]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- API -->
+        <test-method status="FAIL" signature="API(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:restDemo.RestAPI@247d8ae]" name="API" duration-ms="546" started-at="2017-05-12T15:13:00Z" data-provider="userData" finished-at="2017-05-12T15:13:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://restcountries.eu/]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[rest/v1/name/thailand]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[GET]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[name
+capital
+region
+Hanoi]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[var1.1=0.capital
+var1.2=0.latlng[1]
+var1.3=0.borders[2]]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at restDemo.RestAPI.API(RestAPI.java:261)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:100)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:811)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1129)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- API -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:restDemo.RestAPI@247d8ae]" name="cleanUp" is-config="true" duration-ms="1" started-at="2017-05-12T15:13:04Z" finished-at="2017-05-12T15:13:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- restDemo.RestAPI -->
+    </test> <!-- demo suite -->
+  </suite> <!-- demo suite -->
+</testng-results>

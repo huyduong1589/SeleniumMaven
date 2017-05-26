@@ -1,0 +1,12 @@
+@selenium
+Feature: SeleniumDownload section
+  In order to use Selenium in my project, I want to download Selenium language bindings
+
+  Scenario: Java binding download link check                         [90m# SeleniumDownload.feature:5[0m
+    [32mGiven [0m[32mI navigate to page at "[0m[32m[1mhttp://docs.seleniumhq.org[0m[32m" address[0m [90m# StepDefinitions.i_am_on_the_Selenium_homepage(String)[0m
+    [32mWhen [0m[32mI click "[0m[32m[1mDownload[0m[32m" link[0m                                     [90m# StepDefinitions.i_click_tab(String)[0m
+    [32mThen [0m[32mI should see "[0m[32m[1mJava[0m[32m" appear on page[0m                          [90m# StepDefinitions.i_should_see_download_link_on_Download_page(String)[0m
+    [32mAnd [0m[32mI should see "[0m[32m[1mC#[0m[32m" appear on page[0m                             [90m# StepDefinitions.i_should_see_download_link_on_Download_page(String)[0m
+    [32mAnd [0m[32mI should see "[0m[32m[1mRuby[0m[32m" appear on page[0m                           [90m# StepDefinitions.i_should_see_download_link_on_Download_page(String)[0m
+    [32mAnd [0m[32mI should see "[0m[32m[1mPython[0m[32m" appear on page[0m                         [90m# StepDefinitions.i_should_see_download_link_on_Download_page(String)[0m
+    [32mAnd [0m[32mI should see "[0m[32m[1mJavascript (Node)[0m[32m" appear on page[0m              [90m# StepDefinitions.i_should_see_download_link_on_Download_page(String)[0m

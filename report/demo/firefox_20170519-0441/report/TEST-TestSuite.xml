@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="136.785" tests="2" errors="0" skipped="0" failures="2">
+  <properties>
+    <property name="platform" value="WINDOWS"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_121\jre\bin"/>
+    <property name="java.vm.version" value="25.121-b13"/>
+    <property name="browser" value="firefox"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="D:\Automation\automationFW\automationFW\${workspace_loc:\SeleniumMaven}"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="threads" value="1"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="remote" value="false"/>
+    <property name="retryOnFail" value="0"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="D:\Automation\automationFW\automationFW\workspace\SeleniumMaven"/>
+    <property name="java.runtime.version" value="1.8.0_121-b13"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_121\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\dnnvu\AppData\Local\Temp\"/>
+    <property name="proxyPort" value="8080"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="classworlds.conf" value="D:\Automation\automationFW\automationFW\workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf3515358187556481128.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_121\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jdk1.8.0_121/bin/../jre/bin/server;C:/Program Files/Java/jdk1.8.0_121/bin/../jre/bin;C:/Program Files/Java/jdk1.8.0_121/bin/../jre/lib/amd64;C:\Program Files (x86)\Common Files\NetSarang;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\TortoiseSVN\bin;C:\Program Files (x86)\Skype\Phone\;C:\Program Files (x86)\PuTTY\;C:\Users\dnnvu\AppData\Local\Programs\Python\Launcher\;C:\Python27;C:\Python27\Scripts\;C:\Program Files\Java\jdk1.8.0_121\bin;D:\Program Files\Nodejs;D:\Automation\automationFW\automationFW;;."/>
+    <property name="http.proxyPort" value="8080"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="suite" value="demo"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="6.1"/>
+    <property name="user.home" value="C:\Users\dnnvu"/>
+    <property name="user.timezone" value="Asia/Bangkok"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="dnnvu"/>
+    <property name="java.class.path" value="/D:/Automation/automationFW/automationFW/eclipse/plugins/org.eclipse.m2e.maven.runtime_1.6.2.20150902-0001/jars/plexus-classworlds-2.5.2.jar"/>
+    <property name="proxyHost" value="10.10.10.10"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_121\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -Dremote=false -Dplatform=WINDOWS -Dbrowser=firefox -Dscreenshot=D:\Automation\automationFW\automationFW\workspace\SeleniumMaven\screenshots -DretryOnFail=0 -Dthreads=1 -DproxyEnabled=true -DproxyHost=10.10.10.10 -DproxyPort=8080 -Dsuite=demo -B verify"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_121"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_121\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_121\jre\classes"/>
+    <property name="http.proxyHost" value="10.10.10.10"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="D:\Automation\automationFW\automationFW\workspace\SeleniumMaven\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="proxyEnabled" value="true"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="screenshot" value="D:\Automation\automationFW\automationFW\workspace\SeleniumMaven\screenshots"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="googleCheeseExample" classname="demo.Demo1" time="66.399">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
+	at demo.Demo1.googleCheeseExample(Demo1.java:43)
+</failure>
+    <system-out><![CDATA[2017-05-19 11:42:03 [pool-2-thread-1] INFO  Log listener - Clear log
+2017-05-19 11:42:03 [pool-2-thread-1] INFO  TestResultListener - Started test 'Demo1:googleCheeseExample'
+Report is stored under: D:\Automation\automationFW\automationFW\workspace\SeleniumMaven/report/demo/firefox_20170519-0441
+2017-05-19 11:42:03 [pool-2-thread-1] INFO  DriverFactory - Creating a new webdriver
+Proxy is enabled
+*Current URL: https://webmail.tma.com.vn/
+2017-05-19 11:43:09 [pool-2-thread-1] INFO  DriverFactory - Using existing webdriver
+2017-05-19 11:43:09 [pool-2-thread-1] INFO  ScreenshotListener - Created screenshot folder at D:\Automation\automationFW\automationFW\workspace\SeleniumMaven\report\demo\firefox_20170519-0441\screenshots
+2017-05-19 11:43:09 [pool-2-thread-1] INFO  ScreenshotListener - Written screenshot to D:\Automation\automationFW\automationFW\workspace\SeleniumMaven/report/demo/firefox_20170519-0441\screenshots\googleCheeseExample_Demo1_firefox__WINDOWS_.png
+]]></system-out>
+    <system-err><![CDATA[1495168924141	geckodriver	INFO	Listening on 127.0.0.1:5137
+1495168955007	geckodriver::marionette	INFO	Starting browser \\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+[ODEBUG] [Explorer Probe] [disableSPDY]#In disableSPDY()[ODEBUG] [Explorer Probe] [disableSPDY]#Trying to get profile path from command line if exists1495168965201	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/addons/XPIProvider.jsm: ["XPIProvider"]
+1495168965204	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/LightweightThemeManager.jsm: ["LightweightThemeManager"]
+1495168965209	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/addons/GMPProvider.jsm
+1495168965213	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/addons/PluginProvider.jsm
+1495168965214	addons.manager	DEBUG	Starting provider: XPIProvider
+1495168965214	addons.xpi	DEBUG	startup
+1495168965216	addons.xpi	INFO	Mapping firebug@software.joehewitt.com to C:\Users\dnnvu\AppData\Local\Temp\rust_mozprofile.j1SP34qPpGyz\extensions\firebug@software.joehewitt.com.xpi
+1495168965216	addons.xpi	INFO	Mapping FireXPath@pierre.tholence.com to C:\Users\dnnvu\AppData\Local\Temp\rust_mozprofile.j1SP34qPpGyz\extensions\FireXPath@pierre.tholence.com.xpi
+1495168965216	addons.xpi	INFO	Mapping selenium-expert_selenium-ide@Samit.Badle to C:\Users\dnnvu\AppData\Local\Temp\rust_mozprofile.j1SP34qPpGyz\extensions\selenium-expert_selenium-ide@Samit.Badle.xpi
+1495168965217	addons.xpi	INFO	Mapping {E6C1199F-E687-42da-8C24-E7770CC3AE66} to C:\Users\dnnvu\AppData\Local\Temp\rust_mozprofile.j1SP34qPpGyz\extensions\{E6C1199F-E687-42da-8C24-E7770CC3AE66}.xpi
+1495168965217	addons.xpi	INFO	Mapping {f13b157f-b174-47e7-a34d-4815ddfdfeb8} to C:\Users\dnnvu\AppData\Local\Temp\rust_mozprofile.j1SP34qPpGyz\extensions\{f13b157f-b174-47e7-a34d-4815ddfdfeb8}.xpi
+1495168965218	addons.xpi	INFO	SystemAddonInstallLocation directory is missing
+1495168965219	addons.xpi	DEBUG	checkForChanges
+1495168965219	addons.xpi	INFO	SystemAddonInstallLocation directory is missing
+1495168965220	addons.xpi	DEBUG	Loaded add-on state from prefs: {"app-profile":{"firebug@software.joehewitt.com":{"d":"C:\\Users\\dmhuy\\AppData\\Roaming\\Mozilla\\Firefox\\Profiles\\bgrdq8qk.default\\extensions\\firebug@software.joehewitt.com.xpi","e":true,"v":"2.0.19","st":1488338442496},"FireXPath@pierre.tholence.com":{"d":"C:\\Users\\dmhuy\\AppData\\Roaming\\Mozilla\\Firefox\\Profiles\\bgrdq8qk.default\\extensions\\FireXPath@pierre.tholence.com.xpi","e":true,"v":"0.9.7.1.1-signed.1-signed","st":1471940992800},"selenium-expert_selenium-ide@Samit.Badle":{"d":"C:\\Users\\dmhuy\\AppData\\Roaming\\Mozilla\\Firefox\\Profiles\\bgrdq8qk.default\\extensions\\selenium-expert_selenium-ide@Samit.Badle.xpi","e":true,"v":"0.25.1-signed.1-signed","st":1484638173577},"{E6C1199F-E687-42da-8C24-E7770CC3AE66}":{"d":"C:\\Users\\dmhuy\\AppData\\Roaming\\Mozilla\\Firefox\\Profiles\\bgrdq8qk.default\\extensions\\{E6C1199F-E687-42da-8C24-E7770CC3AE66}.xpi","e":true,"v":"2.1.2","st":1477614712145},"{f13b157f-b174-47e7-a34d-4815ddfdfeb8}":{"d":"C:\\Users\\dmhuy\\AppData\\Roaming\\Mozilla\\Firefox\\Profiles\\bgrdq8qk.default\\extensions\\{f13b157f-b174-47e7-a34d-4815ddfdfeb8}.xpi","e":true,"v":"0.9.89.1-signed.1-signed","st":1477614995635}},"app-system-defaults":{"aushelper@mozilla.org":{"d":"C:\\Program Files (x86)\\Mozilla Firefox\\browser\\features\\aushelper@mozilla.org.xpi","e":true,"v":"2.0","st":1494410495800},"e10srollout@mozilla.org":{"d":"C:\\Program Files (x86)\\Mozilla Firefox\\browser\\features\\e10srollout@mozilla.org.xpi","e":true,"v":"1.14","st":1494410495798},"firefox@getpocket.com":{"d":"C:\\Program Files (x86)\\Mozilla Firefox\\browser\\features\\firefox@getpocket.com.xpi","e":true,"v":"1.0.5","st":1494410495797},"webcompat@mozilla.org":{"d":"C:\\Program Files (x86)\\Mozilla Firefox\\browser\\features\\webcompat@mozilla.org.xpi","e":true,"v":"1.0","st":1494410495738}},"app-global":{"{972ce4c6-7e08-4474-a285-3208198ce6fd}":{"d":"C:\\Program Files (x86)\\Mozilla Firefox\\browser\\extensions\\{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi","e":true,"v":"53.0.2","st":1494410495802}},"winreg-app-global":{"{D19CA586-DD6C-4a0a-96F8-14644F340D60}":{"d":"C:\\Program Files (x86)\\Common Files\\McAfee\\SystemCore","e":false,"v":"15.4.0","st":1462771522334,"mt":1492598822499}}}
+1495168965222	addons.xpi	DEBUG	getModTime: Recursive scan of firebug@software.joehewitt.com
+1495168965222	addons.xpi	DEBUG	Changed add-on firebug@software.joehewitt.com in app-profile
+1495168965223	addons.xpi	DEBUG	getModTime: Recursive scan of FireXPath@pierre.tholence.com
+1495168965224	addons.xpi	DEBUG	Changed add-on FireXPath@pierre.tholence.com in app-profile
+1495168965224	addons.xpi	DEBUG	getModTime: Recursive scan of selenium-expert_selenium-ide@Samit.Badle
+1495168965225	addons.xpi	DEBUG	Changed add-on selenium-expert_selenium-ide@Samit.Badle in app-profile
+1495168965225	addons.xpi	DEBUG	getModTime: Recursive scan of {E6C1199F-E687-42da-8C24-E7770CC3AE66}
+1495168965226	addons.xpi	DEBUG	Changed add-on {E6C1199F-E687-42da-8C24-E7770CC3AE66} in app-profile
+1495168965226	addons.xpi	DEBUG	getModTime: Recursive scan of {f13b157f-b174-47e7-a34d-4815ddfdfeb8}
+1495168965227	addons.xpi	DEBUG	Changed add-on {f13b157f-b174-47e7-a34d-4815ddfdfeb8} in app-profile
+1495168965230	addons.xpi	DEBUG	getInstallState changed: true, state: {"app-profile":{"firebug@software.joehewitt.com":{"d":"C:\\Users\\dnnvu\\AppData\\Local\\Temp\\rust_mozprofile.j1SP34qPpGyz\\extensions\\firebug@software.joehewitt.com.xpi","e":true,"v":"2.0.19","st":1495168941810},"FireXPath@pierre.tholence.com":{"d":"C:\\Users\\dnnvu\\AppData\\Local\\Temp\\rust_mozprofile.j1SP34qPpGyz\\extensions\\FireXPath@pierre.tholence.com.xpi","e":true,"v":"0.9.7.1.1-signed.1-signed","st":1495168942010},"selenium-expert_selenium-ide@Samit.Badle":{"d":"C:\\Users\\dnnvu\\AppData\\Local\\Temp\\rust_mozprofile.j1SP34qPpGyz\\extensions\\selenium-expert_selenium-ide@Samit.Badle.xpi","e":true,"v":"0.25.1-signed.1-signed","st":1495168942149},"{E6C1199F-E687-42da-8C24-E7770CC3AE66}":{"d":"C:\\Users\\dnnvu\\AppData\\Local\\Temp\\rust_mozprofile.j1SP34qPpGyz\\extensions\\{E6C1199F-E687-42da-8C24-E7770CC3AE66}.xpi","e":true,"v":"2.1.2","st":1495168942213},"{f13b157f-b174-47e7-a34d-4815ddfdfeb8}":{"d":"C:\\Users\\dnnvu\\AppData\\Local\\Temp\\rust_mozprofile.j1SP34qPpGyz\\extensions\\{f13b157f-b174-47e7-a34d-4815ddfdfeb8}.xpi","e":true,"v":"0.9.89.1-signed.1-signed","st":1495168942215}}}
+1495168965242	addons.xpi-utils	DEBUG	Opening XPI database C:\Users\dnnvu\AppData\Local\Temp\rust_mozprofile.j1SP34qPpGyz\extensions.json
+1495168965251	addons.xpi-utils	DEBUG	Successfully read XPI database
+1495168965255	addons.xpi-utils	DEBUG	Add-on FireXPath@pierre.tholence.com modified in app-profile
+*** Blocklist::_loadBlocklistFromFile: blocklist is disabled
+1495168965353	addons.xpi	DEBUG	Add-on {f13b157f-b174-47e7-a34d-4815ddfdfeb8} blocks e10s rollout.
+1495168965353	DeferredSave.extensions.json	DEBUG	Save changes
+1495168965354	addons.xpi	DEBUG	Add-on {f13b157f-b174-47e7-a34d-4815ddfdfeb8} blocks e10s rollout.
+1495168965355	DeferredSave.extensions.json	DEBUG	Save changes
+1495168965355	addons.xpi-utils	DEBUG	Add-on {E6C1199F-E687-42da-8C24-E7770CC3AE66} modified in app-profile
+1495168965360	DeferredSave.extensions.json	DEBUG	Starting timer
+1495168965370	addons.xpi	DEBUG	Add-on {f13b157f-b174-47e7-a34d-4815ddfdfeb8} blocks e10s rollout.
+1495168965370	DeferredSave.extensions.json	DEBUG	Save changes
+1495168965370	addons.xpi	DEBUG	Add-on {f13b157f-b174-47e7-a34d-4815ddfdfeb8} blocks e10s rollout.
+1495168965370	DeferredSave.extensions.json	DEBUG	Save changes
+1495168965371	addons.xpi-utils	DEBUG	Add-on {f13b157f-b174-47e7-a34d-4815ddfdfeb8} modified in app-profile
+1495168965384	DeferredSave.extensions.json	DEBUG	Starting write
+1495168965401	addons.xpi	DEBUG	Add-on selenium-expert_selenium-ide@Samit.Badle blocks e10s rollout.
+1495168965402	DeferredSave.extensions.json	DEBUG	Save changes
+1495168965402	DeferredSave.extensions.json	DEBUG	Data changed while write in progress
+1495168965402	addons.xpi	DEBUG	Add-on selenium-expert_selenium-ide@Samit.Badle blocks e10s rollout.
+1495168965402	DeferredSave.extensions.json	DEBUG	Save changes
+1495168965402	addons.xpi-utils	DEBUG	Add-on selenium-expert_selenium-ide@Samit.Badle modified in app-profile
+1495168965414	DeferredSave.extensions.json	DEBUG	Save changes
+1495168965415	DeferredSave.extensions.json	DEBUG	Save changes
+1495168965415	addons.xpi-utils	DEBUG	Add-on firebug@software.joehewitt.com modified in app-profile
+1495168965509	DeferredSave.extensions.json	DEBUG	Write succeeded
+1495168965509	addons.xpi-utils	DEBUG	XPI Database saved, setting schema version preference to 19
+1495168965509	DeferredSave.extensions.json	DEBUG	Starting timer
+1495168965531	DeferredSave.extensions.json	DEBUG	Starting write
+1495168965550	DeferredSave.extensions.json	DEBUG	Write succeeded
+1495168965579	DeferredSave.extensions.json	DEBUG	Save changes
+1495168965580	DeferredSave.extensions.json	DEBUG	Save changes
+1495168965581	addons.xpi-utils	DEBUG	Add-on e10srollout@mozilla.org removed from app-system-defaults
+1495168965582	DeferredSave.extensions.json	DEBUG	Save changes
+1495168965582	addons.xpi-utils	DEBUG	Add-on firefox@getpocket.com removed from app-system-defaults
+1495168965582	DeferredSave.extensions.json	DEBUG	Save changes
+1495168965582	addons.xpi-utils	DEBUG	Add-on aushelper@mozilla.org removed from app-system-defaults
+1495168965582	DeferredSave.extensions.json	DEBUG	Save changes
+1495168965583	addons.xpi-utils	DEBUG	Add-on webcompat@mozilla.org removed from app-system-defaults
+1495168965583	DeferredSave.extensions.json	DEBUG	Save changes
+1495168965583	addons.xpi-utils	DEBUG	Add-on {972ce4c6-7e08-4474-a285-3208198ce6fd} removed from app-global
+1495168965583	DeferredSave.extensions.json	DEBUG	Save changes
+1495168965583	addons.xpi-utils	DEBUG	Add-on {D19CA586-DD6C-4a0a-96F8-14644F340D60} removed from winreg-app-global
+1495168965583	DeferredSave.extensions.json	DEBUG	Save changes
+1495168965584	addons.manager	DEBUG	Registering startup change 'changed' for FireXPath@pierre.tholence.com
+1495168965584	addons.xpi-utils	DEBUG	Make addon app-profile:FireXPath@pierre.tholence.com visible
+1495168965585	addons.xpi	DEBUG	Add-on FireXPath@pierre.tholence.com blocks e10s rollout.
+1495168965585	DeferredSave.extensions.json	DEBUG	Save changes
+1495168965585	addons.manager	DEBUG	Registering startup change 'changed' for {E6C1199F-E687-42da-8C24-E7770CC3AE66}
+1495168965585	addons.xpi-utils	DEBUG	Make addon app-profile:{E6C1199F-E687-42da-8C24-E7770CC3AE66} visible
+1495168965586	addons.xpi	DEBUG	Add-on FireXPath@pierre.tholence.com blocks e10s rollout.
+1495168965586	DeferredSave.extensions.json	DEBUG	Save changes
+1495168965586	addons.manager	DEBUG	Registering startup change 'changed' for {f13b157f-b174-47e7-a34d-4815ddfdfeb8}
+1495168965586	addons.xpi-utils	DEBUG	Make addon app-profile:{f13b157f-b174-47e7-a34d-4815ddfdfeb8} visible
+1495168965587	addons.xpi	DEBUG	Add-on FireXPath@pierre.tholence.com blocks e10s rollout.
+1495168965587	DeferredSave.extensions.json	DEBUG	Save changes
+1495168965587	addons.manager	DEBUG	Registering startup change 'changed' for selenium-expert_selenium-ide@Samit.Badle
+1495168965587	addons.xpi-utils	DEBUG	Make addon app-profile:selenium-expert_selenium-ide@Samit.Badle visible
+1495168965588	addons.xpi	DEBUG	Add-on FireXPath@pierre.tholence.com blocks e10s rollout.
+1495168965588	DeferredSave.extensions.json	DEBUG	Save changes
+1495168965588	addons.manager	DEBUG	Registering startup change 'changed' for firebug@software.joehewitt.com
+1495168965597	addons.xpi	DEBUG	Loading bootstrap scope from C:\Users\dnnvu\AppData\Local\Temp\rust_mozprofile.j1SP34qPpGyz\extensions\firebug@software.joehewitt.com.xpi
+1495168965604	addons.xpi	DEBUG	Calling bootstrap method install on firebug@software.joehewitt.com version 2.0.19
+1495168965604	addons.xpi-utils	DEBUG	Make addon app-profile:firebug@software.joehewitt.com visible
+1495168965605	addons.xpi	DEBUG	Add-on FireXPath@pierre.tholence.com blocks e10s rollout.
+1495168965605	DeferredSave.extensions.json	DEBUG	Save changes
+1495168965605	addons.manager	DEBUG	Registering startup change 'uninstalled' for {D19CA586-DD6C-4a0a-96F8-14644F340D60}
+1495168965606	addons.xpi	DEBUG	Loading bootstrap scope from C:\Program Files (x86)\Mozilla Firefox\browser\features\e10srollout@mozilla.org.xpi
+1495168965612	addons.xpi	DEBUG	Calling bootstrap method uninstall on e10srollout@mozilla.org version 1.14
+1495168965612	addons.manager	DEBUG	Registering startup change 'uninstalled' for e10srollout@mozilla.org
+1495168965613	addons.xpi	DEBUG	Loading bootstrap scope from C:\Program Files (x86)\Mozilla Firefox\browser\features\firefox@getpocket.com.xpi
+1495168965628	addons.xpi	DEBUG	Calling bootstrap method uninstall on firefox@getpocket.com version 1.0.5
+1495168965628	addons.manager	DEBUG	Registering startup change 'uninstalled' for firefox@getpocket.com
+1495168965629	addons.xpi	DEBUG	Loading bootstrap scope from C:\Program Files (x86)\Mozilla Firefox\browser\features\aushelper@mozilla.org.xpi
+1495168965690	addons.xpi	DEBUG	Calling bootstrap method uninstall on aushelper@mozilla.org version 2.0
+1495168965692	addons.manager	DEBUG	Registering startup change 'uninstalled' for aushelper@mozilla.org
+1495168965694	addons.xpi	DEBUG	Loading bootstrap scope from C:\Program Files (x86)\Mozilla Firefox\browser\features\webcompat@mozilla.org.xpi
+1495168965737	addons.xpi	DEBUG	Calling bootstrap method uninstall on webcompat@mozilla.org version 1.0
+1495168965738	addons.manager	DEBUG	Registering startup change 'uninstalled' for webcompat@mozilla.org
+1495168965739	addons.manager	DEBUG	Registering startup change 'uninstalled' for {972ce4c6-7e08-4474-a285-3208198ce6fd}
+1495168965740	addons.xpi	DEBUG	Updating XPIState for {"id":"FireXPath@pierre.tholence.com","syncGUID":"aJiICa9Ms_oC","location":"app-profile","version":"0.9.7.1.1-signed.1-signed","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"icons":{},"iconURL":"chrome://firepath/content/FirePath.png","icon64URL":null,"defaultLocale":{"name":"FirePath","description":"FirePath is a Firebug extension that adds a development tool to edit, inspect and generate XPath 1.0 expressions, CSS 3 selectors and JQuery selectors.","creator":"Pierre Tholence","homepageURL":null,"contributors":["David Rees"]},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"descriptor":"C:\\Users\\dnnvu\\AppData\\Local\\Temp\\rust_mozprofile.j1SP34qPpGyz\\extensions\\FireXPath@pierre.tholence.com.xpi","installDate":1471940992800,"updateDate":1495168942010,"applyBackgroundUpdates":1,"bootstrap":false,"skinnable":false,"size":168435,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"4.0","maxVersion":"34.*"}],"targetPlatforms":[],"multiprocessCompatible":false,"signedState":2,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false,"userPermissions":null}
+1495168965740	addons.xpi	DEBUG	Updating XPIState for {"id":"{E6C1199F-E687-42da-8C24-E7770CC3AE66}","syncGUID":"hN3FFgpvjnkM","location":"app-profile","version":"2.1.2","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":"chrome://quickjava/content/options.xul","optionsType":null,"aboutURL":null,"icons":{},"iconURL":"chrome://quickjava/skin/icon.png","icon64URL":null,"defaultLocale":{"name":"QuickJava","description":"Enable/Disable Javascript, Java, Flash, WebGL, WebRTC, Silverlight, Animated Images, Cookies, Images, CSS, and Proxy from Toolbar.","creator":"Doug Greene","homepageURL":"http://quickjavaplugin.blogspot.com/","translators":["strel","Hideki"]},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"descriptor":"C:\\Users\\dnnvu\\AppData\\Local\\Temp\\rust_mozprofile.j1SP34qPpGyz\\extensions\\{E6C1199F-E687-42da-8C24-E7770CC3AE66}.xpi","installDate":1477614712145,"updateDate":1495168942213,"applyBackgroundUpdates":1,"bootstrap":false,"skinnable":false,"size":122195,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"44.0","maxVersion":"52.0"}],"targetPlatforms":[],"multiprocessCompatible":true,"signedState":2,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false,"userPermissions":null}
+1495168965740	addons.xpi	DEBUG	Updating XPIState for {"id":"{f13b157f-b174-47e7-a34d-4815ddfdfeb8}","syncGUID":"nnpdfFw5CT32","location":"app-profile","version":"0.9.89.1-signed.1-signed","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"icons":{},"iconURL":null,"icon64URL":null,"defaultLocale":{"name":"JavaScript Debugger","description":"JavaScript debugger and profiler","creator":"Robert Ginda","homepageURL":"http://www.hacksrus.com/~ginda/venkman/","contributors":["Christopher Aillon","James Ross","Gijs Kruitbosch"]},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"descriptor":"C:\\Users\\dnnvu\\AppData\\Local\\Temp\\rust_mozprofile.j1SP34qPpGyz\\extensions\\{f13b157f-b174-47e7-a34d-4815ddfdfeb8}.xpi","installDate":1477614995635,"updateDate":1495168942215,"applyBackgroundUpdates":1,"bootstrap":false,"skinnable":false,"size":827922,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"3.5","maxVersion":"14.0a1"},{"id":"{3550f703-e582-4d05-9a08-453d09bdfdc6}","minVersion":"3.0","maxVersion":"14.0a1"},{"id":"{92650c4d-4b8e-4d2a-b7eb-24ecf4f6b63a}","minVersion":"2.0","maxVersion":"2.11a1"},{"id":"toolkit@mozilla.org","minVersion":"1.9.1","maxVersion":"14.0.*"}],"targetPlatforms":[],"multiprocessCompatible":false,"signedState":2,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false,"userPermissions":null}
+1495168965740	addons.xpi	DEBUG	Updating XPIState for {"id":"selenium-expert_selenium-ide@Samit.Badle","syncGUID":"-JxyKbS13oN0","location":"app-profile","version":"0.25.1-signed.1-signed","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"icons":{},"iconURL":null,"icon64URL":null,"defaultLocale":{"name":"Selenium Expert (Selenium IDE)","description":"A plugin to provide expert assistance, refactorings and solutions for common problems in your Selenese test cases","creator":"Samit Badle","homepageURL":"http://blog.reallysimplethoughts.com/tag/selenium-expert-selenium-ide-plug-in/"},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"descriptor":"C:\\Users\\dnnvu\\AppData\\Local\\Temp\\rust_mozprofile.j1SP34qPpGyz\\extensions\\selenium-expert_selenium-ide@Samit.Badle.xpi","installDate":1484638173577,"updateDate":1495168942149,"applyBackgroundUpdates":1,"bootstrap":false,"skinnable":false,"size":46930,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"3.5","maxVersion":"17.*"}],"targetPlatforms":[],"multiprocessCompatible":false,"signedState":2,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false,"userPermissions":null}
+1495168965744	addons.xpi	DEBUG	Updating XPIState for {"id":"firebug@software.joehewitt.com","syncGUID":"1Aw8ZYc72xPe","location":"app-profile","version":"2.0.19","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"icons":{},"iconURL":"chrome://firebug/skin/firebugBig.png","icon64URL":null,"defaultLocale":{"name":"Firebug","description":"Web Development Evolved. Firebug is free and open source software distributed under the BSD License.","creator":"Joe Hewitt","homepageURL":"http://www.getfirebug.com/","translators":["Leszek(teo)Zyczkowski (pl-PL)","markh (nl)","peter3 (sv-SE)","AlleyKat (da-DK)","Hector Zhao, lovelywcm (zh-CN)","Lukas Kucharczyk, Michal Kec (cs-CZ)","Team erweiterungen.de, ReinekeFux, Benedikt Langens, Sebastian Zartner (de-DE)","l0stintranslation, gonzalopirobutirro, Luigi Grilli (it-IT)","alexxed (ro-RO)","Nicolas Martin, Franck Marcia (fr-FR)","gLes (hu-HU)","Xavi Ivars - Softcatala (ca)","gezmen (tr-TR)","eternoendless (es-AR)","Dark Preacher (ru)","Tiago Oliveira, Diego de Carvalho Zimmermann, Alexandre Rapaki (pt-BR)","Juan Botias, Alvaro G. Vicario (es-ES)","Andriy Zhouck (uk-UA)","Hisateru Tanaka, k2jp (ja-JP)","Mohsen Shadroo (fa-IR)","Eduard Babayan (hy-AM)","Helder Magalhaes (pt-PT)","Tomaz Macus (sl-SI)","Stoyan Stefanov, Alexander Shopov (bg)","Kristjan Bjarni Guomundsson (is-IS)","NGUYEN Manh Hung (vi-VN)","Bwah (hr-HR)","Sonickydon (el)","David Gonzales (es)","DakSrbija (sr)","bootleq (zh-TW)","Asier Iturralde Sarasola, Julen Irazoki Oteiza (eu)"],"contributors":["John J. Barton (IBM Almaden)","Jan Odvarko (Mozilla Corp.)","Max Stepanov (Aptana Inc.)","Rob Campbell (Mozilla Corp.)","Hans Hillen (Paciello Group, Mozilla)","Curtis Bartley (Mozilla Corp.)","Mike Collins (IBM Almaden)","Kevin Decker","Mike Ratcliffe (Mozilla Corp.)","Hernan Rodriguez Colmeiro","Austin Andrews","Christoph Dorn","Steven Roussey (Illuminations for Developers)","Sebastian Zartner","Harutyun Amirjanyan","Simon Lindholm","Stampolidis Anastasios","Joe Walker (Mozilla Corp.)","Vladimir Zhuravlev","Farshid Beheshti","Leon Sorokin","Florent Fayolle","Hector Zhao","Bharath Thiruveedula","Nathan Mische","Belakhdar Abdeldjalil","Jakob Kaltenbrunner"]},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"descriptor":"C:\\Users\\dnnvu\\AppData\\Local\\Temp\\rust_mozprofile.j1SP34qPpGyz\\extensions\\firebug@software.joehewitt.com.xpi","installDate":1471940959218,"updateDate":1495168941810,"applyBackgroundUpdates":1,"bootstrap":true,"skinnable":false,"size":9681994,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"toolkit@mozilla.org","minVersion":"30.0a1","maxVersion":"54.0"},{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"30.0a1","maxVersion":"54.0"}],"targetPlatforms":[],"multiprocessCompatible":true,"signedState":2,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false,"userPermissions":null}
+1495168965744	addons.xpi	DEBUG	Add-on FireXPath@pierre.tholence.com blocks e10s rollout.
+1495168965744	DeferredSave.extensions.json	DEBUG	Save changes
+1495168965744	addons.xpi	DEBUG	Updating database with changes to installed add-ons
+1495168965745	addons.xpi-utils	DEBUG	Updating add-on states
+1495168965752	addons.xpi-utils	DEBUG	Writing add-ons list
+1495168965779	addons.xpi	DEBUG	Registering manifest for C:\Users\dnnvu\AppData\Local\Temp\rust_mozprofile.j1SP34qPpGyz\extensions\firebug@software.joehewitt.com.xpi
+1495168965781	addons.xpi	DEBUG	Calling bootstrap method startup on firebug@software.joehewitt.com version 2.0.19
+1495168965807	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
+1495168965807	addons.manager	DEBUG	Provider finished startup: XPIProvider
+1495168965807	addons.manager	DEBUG	Starting provider: LightweightThemeManager
+1495168965807	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
+1495168965807	addons.manager	DEBUG	Provider finished startup: LightweightThemeManager
+1495168965808	addons.manager	DEBUG	Starting provider: GMPProvider
+1495168965818	addons.manager	DEBUG	Registering shutdown blocker for GMPProvider
+1495168965818	addons.manager	DEBUG	Provider finished startup: GMPProvider
+1495168965818	addons.manager	DEBUG	Starting provider: PluginProvider
+1495168965818	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
+1495168965819	addons.manager	DEBUG	Provider finished startup: PluginProvider
+1495168965819	addons.manager	DEBUG	Completed startup sequence
+JavaScript error: jar:file:///C:/Users/dnnvu/AppData/Local/Temp/rust_mozprofile.j1SP34qPpGyz/extensions/%7Bf13b157f-b174-47e7-a34d-4815ddfdfeb8%7D.xpi!/components/venkman-service.js, line 195: TypeError: Components.classes[JSD_CTRID] is undefined
+1495168967237	DeferredSave.extensions.json	DEBUG	Starting timer
+1495168968681	addons.manager	DEBUG	Starting provider: PreviousExperimentProvider
+1495168968681	addons.manager	DEBUG	Registering shutdown blocker for PreviousExperimentProvider
+1495168968681	addons.manager	DEBUG	Provider finished startup: PreviousExperimentProvider
+1495168968739	DeferredSave.extensions.json	DEBUG	Starting write
+1495168969984	DeferredSave.extensions.json	DEBUG	Write succeeded
+1495168973174	Marionette	INFO	Listening on port 53039
+1495168973195	addons.manager	DEBUG	Starting provider: <unnamed-provider>
+1495168973195	addons.manager	DEBUG	Registering shutdown blocker for <unnamed-provider>
+1495168973195	addons.manager	DEBUG	Provider finished startup: <unnamed-provider>
+console.error: 
+  Could not write session state file 
+  Message: Win error 5 during operation move on file C:\Users\dnnvu\AppData\Local\Temp\rust_mozprofile.j1SP34qPpGyz\sessionstore.js (Access is denied.
+)
+  
+May 19, 2017 11:42:53 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="googleCheeseExample" classname="demo.Demo2" time="60.787">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
+	at demo.Demo2.googleCheeseExample(Demo2.java:43)
+</failure>
+    <system-out><![CDATA[BROWSER:   FIREFOX
+HERERERRERERERREE:     Demo1_googleCheeseExample
+2017-05-19 11:43:12 [pool-2-thread-1] ERROR TestResultListener - Test 'Demo1:googleCheeseExample' FAILED
+List: 1
+2017-05-19 11:43:13 [pool-2-thread-1] INFO  Log listener - Clear log
+2017-05-19 11:43:13 [pool-2-thread-1] INFO  TestResultListener - Started test 'Demo2:googleCheeseExample'
+Report is stored under: D:\Automation\automationFW\automationFW\workspace\SeleniumMaven/report/demo/firefox_20170519-0441
+2017-05-19 11:43:13 [pool-2-thread-1] INFO  DriverFactory - Creating a new webdriver
+Proxy is enabled
+*Current URL: https://webmail.tma.com.vn/
+2017-05-19 11:44:14 [pool-2-thread-1] INFO  DriverFactory - Using existing webdriver
+2017-05-19 11:44:14 [pool-2-thread-1] INFO  ScreenshotListener - Written screenshot to D:\Automation\automationFW\automationFW\workspace\SeleniumMaven/report/demo/firefox_20170519-0441\screenshots\googleCheeseExample_Demo2_firefox__WINDOWS_.png
+]]></system-out>
+    <system-err><![CDATA[1495168992725	Marionette	INFO	New connections will no longer be accepted
+1495168992732	addons.xpi	DEBUG	Calling bootstrap method shutdown on firebug@software.joehewitt.com version 2.0.19
+1495168993639	geckodriver	INFO	Listening on 127.0.0.1:35805
+1495169024060	geckodriver::marionette	INFO	Starting browser \\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+[ODEBUG] [Explorer Probe] [disableSPDY]#In disableSPDY()[ODEBUG] [Explorer Probe] [disableSPDY]#Trying to get profile path from command line if exists1495169034909	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/addons/XPIProvider.jsm: ["XPIProvider"]
+1495169034911	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/LightweightThemeManager.jsm: ["LightweightThemeManager"]
+1495169034915	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/addons/GMPProvider.jsm
+1495169034918	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/addons/PluginProvider.jsm
+1495169034919	addons.manager	DEBUG	Starting provider: XPIProvider
+1495169034919	addons.xpi	DEBUG	startup
+1495169034920	addons.xpi	INFO	Mapping firebug@software.joehewitt.com to C:\Users\dnnvu\AppData\Local\Temp\rust_mozprofile.bpQySM1GV0Cr\extensions\firebug@software.joehewitt.com.xpi
+1495169034921	addons.xpi	INFO	Mapping FireXPath@pierre.tholence.com to C:\Users\dnnvu\AppData\Local\Temp\rust_mozprofile.bpQySM1GV0Cr\extensions\FireXPath@pierre.tholence.com.xpi
+1495169034921	addons.xpi	INFO	Mapping selenium-expert_selenium-ide@Samit.Badle to C:\Users\dnnvu\AppData\Local\Temp\rust_mozprofile.bpQySM1GV0Cr\extensions\selenium-expert_selenium-ide@Samit.Badle.xpi
+1495169034921	addons.xpi	INFO	Mapping {E6C1199F-E687-42da-8C24-E7770CC3AE66} to C:\Users\dnnvu\AppData\Local\Temp\rust_mozprofile.bpQySM1GV0Cr\extensions\{E6C1199F-E687-42da-8C24-E7770CC3AE66}.xpi
+1495169034922	addons.xpi	INFO	Mapping {f13b157f-b174-47e7-a34d-4815ddfdfeb8} to C:\Users\dnnvu\AppData\Local\Temp\rust_mozprofile.bpQySM1GV0Cr\extensions\{f13b157f-b174-47e7-a34d-4815ddfdfeb8}.xpi
+1495169034922	addons.xpi	INFO	SystemAddonInstallLocation directory is missing
+1495169034923	addons.xpi	DEBUG	checkForChanges
+1495169034923	addons.xpi	INFO	SystemAddonInstallLocation directory is missing
+1495169034924	addons.xpi	DEBUG	Loaded add-on state from prefs: {"app-profile":{"firebug@software.joehewitt.com":{"d":"C:\\Users\\dmhuy\\AppData\\Roaming\\Mozilla\\Firefox\\Profiles\\bgrdq8qk.default\\extensions\\firebug@software.joehewitt.com.xpi","e":true,"v":"2.0.19","st":1488338442496},"FireXPath@pierre.tholence.com":{"d":"C:\\Users\\dmhuy\\AppData\\Roaming\\Mozilla\\Firefox\\Profiles\\bgrdq8qk.default\\extensions\\FireXPath@pierre.tholence.com.xpi","e":true,"v":"0.9.7.1.1-signed.1-signed","st":1471940992800},"selenium-expert_selenium-ide@Samit.Badle":{"d":"C:\\Users\\dmhuy\\AppData\\Roaming\\Mozilla\\Firefox\\Profiles\\bgrdq8qk.default\\extensions\\selenium-expert_selenium-ide@Samit.Badle.xpi","e":true,"v":"0.25.1-signed.1-signed","st":1484638173577},"{E6C1199F-E687-42da-8C24-E7770CC3AE66}":{"d":"C:\\Users\\dmhuy\\AppData\\Roaming\\Mozilla\\Firefox\\Profiles\\bgrdq8qk.default\\extensions\\{E6C1199F-E687-42da-8C24-E7770CC3AE66}.xpi","e":true,"v":"2.1.2","st":1477614712145},"{f13b157f-b174-47e7-a34d-4815ddfdfeb8}":{"d":"C:\\Users\\dmhuy\\AppData\\Roaming\\Mozilla\\Firefox\\Profiles\\bgrdq8qk.default\\extensions\\{f13b157f-b174-47e7-a34d-4815ddfdfeb8}.xpi","e":true,"v":"0.9.89.1-signed.1-signed","st":1477614995635}},"app-system-defaults":{"aushelper@mozilla.org":{"d":"C:\\Program Files (x86)\\Mozilla Firefox\\browser\\features\\aushelper@mozilla.org.xpi","e":true,"v":"2.0","st":1494410495800},"e10srollout@mozilla.org":{"d":"C:\\Program Files (x86)\\Mozilla Firefox\\browser\\features\\e10srollout@mozilla.org.xpi","e":true,"v":"1.14","st":1494410495798},"firefox@getpocket.com":{"d":"C:\\Program Files (x86)\\Mozilla Firefox\\browser\\features\\firefox@getpocket.com.xpi","e":true,"v":"1.0.5","st":1494410495797},"webcompat@mozilla.org":{"d":"C:\\Program Files (x86)\\Mozilla Firefox\\browser\\features\\webcompat@mozilla.org.xpi","e":true,"v":"1.0","st":1494410495738}},"app-global":{"{972ce4c6-7e08-4474-a285-3208198ce6fd}":{"d":"C:\\Program Files (x86)\\Mozilla Firefox\\browser\\extensions\\{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi","e":true,"v":"53.0.2","st":1494410495802}},"winreg-app-global":{"{D19CA586-DD6C-4a0a-96F8-14644F340D60}":{"d":"C:\\Program Files (x86)\\Common Files\\McAfee\\SystemCore","e":false,"v":"15.4.0","st":1462771522334,"mt":1492598822499}}}
+1495169034925	addons.xpi	DEBUG	getModTime: Recursive scan of firebug@software.joehewitt.com
+1495169034926	addons.xpi	DEBUG	Changed add-on firebug@software.joehewitt.com in app-profile
+1495169034929	addons.xpi	DEBUG	getModTime: Recursive scan of FireXPath@pierre.tholence.com
+1495169034929	addons.xpi	DEBUG	Changed add-on FireXPath@pierre.tholence.com in app-profile
+1495169034930	addons.xpi	DEBUG	getModTime: Recursive scan of selenium-expert_selenium-ide@Samit.Badle
+1495169034930	addons.xpi	DEBUG	Changed add-on selenium-expert_selenium-ide@Samit.Badle in app-profile
+1495169034932	addons.xpi	DEBUG	getModTime: Recursive scan of {E6C1199F-E687-42da-8C24-E7770CC3AE66}
+1495169034935	addons.xpi	DEBUG	Changed add-on {E6C1199F-E687-42da-8C24-E7770CC3AE66} in app-profile
+1495169034935	addons.xpi	DEBUG	getModTime: Recursive scan of {f13b157f-b174-47e7-a34d-4815ddfdfeb8}
+1495169034936	addons.xpi	DEBUG	Changed add-on {f13b157f-b174-47e7-a34d-4815ddfdfeb8} in app-profile
+1495169034938	addons.xpi	DEBUG	getInstallState changed: true, state: {"app-profile":{"firebug@software.joehewitt.com":{"d":"C:\\Users\\dnnvu\\AppData\\Local\\Temp\\rust_mozprofile.bpQySM1GV0Cr\\extensions\\firebug@software.joehewitt.com.xpi","e":true,"v":"2.0.19","st":1495169013353},"FireXPath@pierre.tholence.com":{"d":"C:\\Users\\dnnvu\\AppData\\Local\\Temp\\rust_mozprofile.bpQySM1GV0Cr\\extensions\\FireXPath@pierre.tholence.com.xpi","e":true,"v":"0.9.7.1.1-signed.1-signed","st":1495169013354},"selenium-expert_selenium-ide@Samit.Badle":{"d":"C:\\Users\\dnnvu\\AppData\\Local\\Temp\\rust_mozprofile.bpQySM1GV0Cr\\extensions\\selenium-expert_selenium-ide@Samit.Badle.xpi","e":true,"v":"0.25.1-signed.1-signed","st":1495169013441},"{E6C1199F-E687-42da-8C24-E7770CC3AE66}":{"d":"C:\\Users\\dnnvu\\AppData\\Local\\Temp\\rust_mozprofile.bpQySM1GV0Cr\\extensions\\{E6C1199F-E687-42da-8C24-E7770CC3AE66}.xpi","e":true,"v":"2.1.2","st":1495169013442},"{f13b157f-b174-47e7-a34d-4815ddfdfeb8}":{"d":"C:\\Users\\dnnvu\\AppData\\Local\\Temp\\rust_mozprofile.bpQySM1GV0Cr\\extensions\\{f13b157f-b174-47e7-a34d-4815ddfdfeb8}.xpi","e":true,"v":"0.9.89.1-signed.1-signed","st":1495169013444}}}
+1495169034956	addons.xpi-utils	DEBUG	Opening XPI database C:\Users\dnnvu\AppData\Local\Temp\rust_mozprofile.bpQySM1GV0Cr\extensions.json
+1495169034965	addons.xpi-utils	DEBUG	Successfully read XPI database
+1495169034968	addons.xpi-utils	DEBUG	Add-on FireXPath@pierre.tholence.com modified in app-profile
+*** Blocklist::_loadBlocklistFromFile: blocklist is disabled
+1495169034997	addons.xpi	DEBUG	Add-on {f13b157f-b174-47e7-a34d-4815ddfdfeb8} blocks e10s rollout.
+1495169034997	DeferredSave.extensions.json	DEBUG	Save changes
+1495169034998	addons.xpi	DEBUG	Add-on {f13b157f-b174-47e7-a34d-4815ddfdfeb8} blocks e10s rollout.
+1495169034998	DeferredSave.extensions.json	DEBUG	Save changes
+1495169034998	addons.xpi-utils	DEBUG	Add-on {E6C1199F-E687-42da-8C24-E7770CC3AE66} modified in app-profile
+1495169035003	DeferredSave.extensions.json	DEBUG	Starting timer
+1495169035011	addons.xpi	DEBUG	Add-on {f13b157f-b174-47e7-a34d-4815ddfdfeb8} blocks e10s rollout.
+1495169035011	DeferredSave.extensions.json	DEBUG	Save changes
+1495169035012	addons.xpi	DEBUG	Add-on {f13b157f-b174-47e7-a34d-4815ddfdfeb8} blocks e10s rollout.
+1495169035012	DeferredSave.extensions.json	DEBUG	Save changes
+1495169035012	addons.xpi-utils	DEBUG	Add-on {f13b157f-b174-47e7-a34d-4815ddfdfeb8} modified in app-profile
+1495169035026	DeferredSave.extensions.json	DEBUG	Starting write
+1495169035041	addons.xpi	DEBUG	Add-on selenium-expert_selenium-ide@Samit.Badle blocks e10s rollout.
+1495169035041	DeferredSave.extensions.json	DEBUG	Save changes
+1495169035041	DeferredSave.extensions.json	DEBUG	Data changed while write in progress
+1495169035042	addons.xpi	DEBUG	Add-on selenium-expert_selenium-ide@Samit.Badle blocks e10s rollout.
+1495169035042	DeferredSave.extensions.json	DEBUG	Save changes
+1495169035042	addons.xpi-utils	DEBUG	Add-on selenium-expert_selenium-ide@Samit.Badle modified in app-profile
+1495169035053	DeferredSave.extensions.json	DEBUG	Save changes
+1495169035054	DeferredSave.extensions.json	DEBUG	Save changes
+1495169035055	addons.xpi-utils	DEBUG	Add-on firebug@software.joehewitt.com modified in app-profile
+1495169035110	DeferredSave.extensions.json	DEBUG	Write succeeded
+1495169035110	addons.xpi-utils	DEBUG	XPI Database saved, setting schema version preference to 19
+1495169035110	DeferredSave.extensions.json	DEBUG	Starting timer
+1495169035132	DeferredSave.extensions.json	DEBUG	Starting write
+1495169035143	DeferredSave.extensions.json	DEBUG	Write succeeded
+1495169035194	DeferredSave.extensions.json	DEBUG	Save changes
+1495169035194	DeferredSave.extensions.json	DEBUG	Save changes
+1495169035195	addons.xpi-utils	DEBUG	Add-on e10srollout@mozilla.org removed from app-system-defaults
+1495169035196	DeferredSave.extensions.json	DEBUG	Save changes
+1495169035196	addons.xpi-utils	DEBUG	Add-on firefox@getpocket.com removed from app-system-defaults
+1495169035196	DeferredSave.extensions.json	DEBUG	Save changes
+1495169035196	addons.xpi-utils	DEBUG	Add-on aushelper@mozilla.org removed from app-system-defaults
+1495169035196	DeferredSave.extensions.json	DEBUG	Save changes
+1495169035196	addons.xpi-utils	DEBUG	Add-on webcompat@mozilla.org removed from app-system-defaults
+1495169035197	DeferredSave.extensions.json	DEBUG	Save changes
+1495169035197	addons.xpi-utils	DEBUG	Add-on {972ce4c6-7e08-4474-a285-3208198ce6fd} removed from app-global
+1495169035197	DeferredSave.extensions.json	DEBUG	Save changes
+1495169035197	addons.xpi-utils	DEBUG	Add-on {D19CA586-DD6C-4a0a-96F8-14644F340D60} removed from winreg-app-global
+1495169035197	DeferredSave.extensions.json	DEBUG	Save changes
+1495169035198	addons.manager	DEBUG	Registering startup change 'changed' for FireXPath@pierre.tholence.com
+1495169035198	addons.xpi-utils	DEBUG	Make addon app-profile:FireXPath@pierre.tholence.com visible
+1495169035199	addons.xpi	DEBUG	Add-on FireXPath@pierre.tholence.com blocks e10s rollout.
+1495169035199	DeferredSave.extensions.json	DEBUG	Save changes
+1495169035199	addons.manager	DEBUG	Registering startup change 'changed' for {E6C1199F-E687-42da-8C24-E7770CC3AE66}
+1495169035199	addons.xpi-utils	DEBUG	Make addon app-profile:{E6C1199F-E687-42da-8C24-E7770CC3AE66} visible
+1495169035200	addons.xpi	DEBUG	Add-on FireXPath@pierre.tholence.com blocks e10s rollout.
+1495169035200	DeferredSave.extensions.json	DEBUG	Save changes
+1495169035200	addons.manager	DEBUG	Registering startup change 'changed' for {f13b157f-b174-47e7-a34d-4815ddfdfeb8}
+1495169035200	addons.xpi-utils	DEBUG	Make addon app-profile:{f13b157f-b174-47e7-a34d-4815ddfdfeb8} visible
+1495169035200	addons.xpi	DEBUG	Add-on FireXPath@pierre.tholence.com blocks e10s rollout.
+1495169035200	DeferredSave.extensions.json	DEBUG	Save changes
+1495169035201	addons.manager	DEBUG	Registering startup change 'changed' for selenium-expert_selenium-ide@Samit.Badle
+1495169035201	addons.xpi-utils	DEBUG	Make addon app-profile:selenium-expert_selenium-ide@Samit.Badle visible
+1495169035201	addons.xpi	DEBUG	Add-on FireXPath@pierre.tholence.com blocks e10s rollout.
+1495169035201	DeferredSave.extensions.json	DEBUG	Save changes
+1495169035201	addons.manager	DEBUG	Registering startup change 'changed' for firebug@software.joehewitt.com
+1495169035211	addons.xpi	DEBUG	Loading bootstrap scope from C:\Users\dnnvu\AppData\Local\Temp\rust_mozprofile.bpQySM1GV0Cr\extensions\firebug@software.joehewitt.com.xpi
+1495169035217	addons.xpi	DEBUG	Calling bootstrap method install on firebug@software.joehewitt.com version 2.0.19
+1495169035217	addons.xpi-utils	DEBUG	Make addon app-profile:firebug@software.joehewitt.com visible
+1495169035217	addons.xpi	DEBUG	Add-on FireXPath@pierre.tholence.com blocks e10s rollout.
+1495169035217	DeferredSave.extensions.json	DEBUG	Save changes
+1495169035218	addons.manager	DEBUG	Registering startup change 'uninstalled' for {D19CA586-DD6C-4a0a-96F8-14644F340D60}
+1495169035218	addons.xpi	DEBUG	Loading bootstrap scope from C:\Program Files (x86)\Mozilla Firefox\browser\features\e10srollout@mozilla.org.xpi
+1495169035223	addons.xpi	DEBUG	Calling bootstrap method uninstall on e10srollout@mozilla.org version 1.14
+1495169035224	addons.manager	DEBUG	Registering startup change 'uninstalled' for e10srollout@mozilla.org
+1495169035224	addons.xpi	DEBUG	Loading bootstrap scope from C:\Program Files (x86)\Mozilla Firefox\browser\features\firefox@getpocket.com.xpi
+1495169035237	addons.xpi	DEBUG	Calling bootstrap method uninstall on firefox@getpocket.com version 1.0.5
+1495169035237	addons.manager	DEBUG	Registering startup change 'uninstalled' for firefox@getpocket.com
+1495169035238	addons.xpi	DEBUG	Loading bootstrap scope from C:\Program Files (x86)\Mozilla Firefox\browser\features\aushelper@mozilla.org.xpi
+1495169035243	addons.xpi	DEBUG	Calling bootstrap method uninstall on aushelper@mozilla.org version 2.0
+1495169035244	addons.manager	DEBUG	Registering startup change 'uninstalled' for aushelper@mozilla.org
+1495169035245	addons.xpi	DEBUG	Loading bootstrap scope from C:\Program Files (x86)\Mozilla Firefox\browser\features\webcompat@mozilla.org.xpi
+1495169035248	addons.xpi	DEBUG	Calling bootstrap method uninstall on webcompat@mozilla.org version 1.0
+1495169035248	addons.manager	DEBUG	Registering startup change 'uninstalled' for webcompat@mozilla.org
+1495169035249	addons.manager	DEBUG	Registering startup change 'uninstalled' for {972ce4c6-7e08-4474-a285-3208198ce6fd}
+1495169035250	addons.xpi	DEBUG	Updating XPIState for {"id":"FireXPath@pierre.tholence.com","syncGUID":"aJiICa9Ms_oC","location":"app-profile","version":"0.9.7.1.1-signed.1-signed","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"icons":{},"iconURL":"chrome://firepath/content/FirePath.png","icon64URL":null,"defaultLocale":{"name":"FirePath","description":"FirePath is a Firebug extension that adds a development tool to edit, inspect and generate XPath 1.0 expressions, CSS 3 selectors and JQuery selectors.","creator":"Pierre Tholence","homepageURL":null,"contributors":["David Rees"]},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"descriptor":"C:\\Users\\dnnvu\\AppData\\Local\\Temp\\rust_mozprofile.bpQySM1GV0Cr\\extensions\\FireXPath@pierre.tholence.com.xpi","installDate":1471940992800,"updateDate":1495169013354,"applyBackgroundUpdates":1,"bootstrap":false,"skinnable":false,"size":168435,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"4.0","maxVersion":"34.*"}],"targetPlatforms":[],"multiprocessCompatible":false,"signedState":2,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false,"userPermissions":null}
+1495169035250	addons.xpi	DEBUG	Updating XPIState for {"id":"{E6C1199F-E687-42da-8C24-E7770CC3AE66}","syncGUID":"hN3FFgpvjnkM","location":"app-profile","version":"2.1.2","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":"chrome://quickjava/content/options.xul","optionsType":null,"aboutURL":null,"icons":{},"iconURL":"chrome://quickjava/skin/icon.png","icon64URL":null,"defaultLocale":{"name":"QuickJava","description":"Enable/Disable Javascript, Java, Flash, WebGL, WebRTC, Silverlight, Animated Images, Cookies, Images, CSS, and Proxy from Toolbar.","creator":"Doug Greene","homepageURL":"http://quickjavaplugin.blogspot.com/","translators":["strel","Hideki"]},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"descriptor":"C:\\Users\\dnnvu\\AppData\\Local\\Temp\\rust_mozprofile.bpQySM1GV0Cr\\extensions\\{E6C1199F-E687-42da-8C24-E7770CC3AE66}.xpi","installDate":1477614712145,"updateDate":1495169013442,"applyBackgroundUpdates":1,"bootstrap":false,"skinnable":false,"size":122195,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"44.0","maxVersion":"52.0"}],"targetPlatforms":[],"multiprocessCompatible":true,"signedState":2,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false,"userPermissions":null}
+1495169035250	addons.xpi	DEBUG	Updating XPIState for {"id":"{f13b157f-b174-47e7-a34d-4815ddfdfeb8}","syncGUID":"nnpdfFw5CT32","location":"app-profile","version":"0.9.89.1-signed.1-signed","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"icons":{},"iconURL":null,"icon64URL":null,"defaultLocale":{"name":"JavaScript Debugger","description":"JavaScript debugger and profiler","creator":"Robert Ginda","homepageURL":"http://www.hacksrus.com/~ginda/venkman/","contributors":["Christopher Aillon","James Ross","Gijs Kruitbosch"]},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"descriptor":"C:\\Users\\dnnvu\\AppData\\Local\\Temp\\rust_mozprofile.bpQySM1GV0Cr\\extensions\\{f13b157f-b174-47e7-a34d-4815ddfdfeb8}.xpi","installDate":1477614995635,"updateDate":1495169013444,"applyBackgroundUpdates":1,"bootstrap":false,"skinnable":false,"size":827922,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"3.5","maxVersion":"14.0a1"},{"id":"{3550f703-e582-4d05-9a08-453d09bdfdc6}","minVersion":"3.0","maxVersion":"14.0a1"},{"id":"{92650c4d-4b8e-4d2a-b7eb-24ecf4f6b63a}","minVersion":"2.0","maxVersion":"2.11a1"},{"id":"toolkit@mozilla.org","minVersion":"1.9.1","maxVersion":"14.0.*"}],"targetPlatforms":[],"multiprocessCompatible":false,"signedState":2,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false,"userPermissions":null}
+1495169035250	addons.xpi	DEBUG	Updating XPIState for {"id":"selenium-expert_selenium-ide@Samit.Badle","syncGUID":"-JxyKbS13oN0","location":"app-profile","version":"0.25.1-signed.1-signed","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"icons":{},"iconURL":null,"icon64URL":null,"defaultLocale":{"name":"Selenium Expert (Selenium IDE)","description":"A plugin to provide expert assistance, refactorings and solutions for common problems in your Selenese test cases","creator":"Samit Badle","homepageURL":"http://blog.reallysimplethoughts.com/tag/selenium-expert-selenium-ide-plug-in/"},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"descriptor":"C:\\Users\\dnnvu\\AppData\\Local\\Temp\\rust_mozprofile.bpQySM1GV0Cr\\extensions\\selenium-expert_selenium-ide@Samit.Badle.xpi","installDate":1484638173577,"updateDate":1495169013441,"applyBackgroundUpdates":1,"bootstrap":false,"skinnable":false,"size":46930,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"3.5","maxVersion":"17.*"}],"targetPlatforms":[],"multiprocessCompatible":false,"signedState":2,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false,"userPermissions":null}
+1495169035254	addons.xpi	DEBUG	Updating XPIState for {"id":"firebug@software.joehewitt.com","syncGUID":"1Aw8ZYc72xPe","location":"app-profile","version":"2.0.19","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"icons":{},"iconURL":"chrome://firebug/skin/firebugBig.png","icon64URL":null,"defaultLocale":{"name":"Firebug","description":"Web Development Evolved. Firebug is free and open source software distributed under the BSD License.","creator":"Joe Hewitt","homepageURL":"http://www.getfirebug.com/","translators":["Leszek(teo)Zyczkowski (pl-PL)","markh (nl)","peter3 (sv-SE)","AlleyKat (da-DK)","Hector Zhao, lovelywcm (zh-CN)","Lukas Kucharczyk, Michal Kec (cs-CZ)","Team erweiterungen.de, ReinekeFux, Benedikt Langens, Sebastian Zartner (de-DE)","l0stintranslation, gonzalopirobutirro, Luigi Grilli (it-IT)","alexxed (ro-RO)","Nicolas Martin, Franck Marcia (fr-FR)","gLes (hu-HU)","Xavi Ivars - Softcatala (ca)","gezmen (tr-TR)","eternoendless (es-AR)","Dark Preacher (ru)","Tiago Oliveira, Diego de Carvalho Zimmermann, Alexandre Rapaki (pt-BR)","Juan Botias, Alvaro G. Vicario (es-ES)","Andriy Zhouck (uk-UA)","Hisateru Tanaka, k2jp (ja-JP)","Mohsen Shadroo (fa-IR)","Eduard Babayan (hy-AM)","Helder Magalhaes (pt-PT)","Tomaz Macus (sl-SI)","Stoyan Stefanov, Alexander Shopov (bg)","Kristjan Bjarni Guomundsson (is-IS)","NGUYEN Manh Hung (vi-VN)","Bwah (hr-HR)","Sonickydon (el)","David Gonzales (es)","DakSrbija (sr)","bootleq (zh-TW)","Asier Iturralde Sarasola, Julen Irazoki Oteiza (eu)"],"contributors":["John J. Barton (IBM Almaden)","Jan Odvarko (Mozilla Corp.)","Max Stepanov (Aptana Inc.)","Rob Campbell (Mozilla Corp.)","Hans Hillen (Paciello Group, Mozilla)","Curtis Bartley (Mozilla Corp.)","Mike Collins (IBM Almaden)","Kevin Decker","Mike Ratcliffe (Mozilla Corp.)","Hernan Rodriguez Colmeiro","Austin Andrews","Christoph Dorn","Steven Roussey (Illuminations for Developers)","Sebastian Zartner","Harutyun Amirjanyan","Simon Lindholm","Stampolidis Anastasios","Joe Walker (Mozilla Corp.)","Vladimir Zhuravlev","Farshid Beheshti","Leon Sorokin","Florent Fayolle","Hector Zhao","Bharath Thiruveedula","Nathan Mische","Belakhdar Abdeldjalil","Jakob Kaltenbrunner"]},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"descriptor":"C:\\Users\\dnnvu\\AppData\\Local\\Temp\\rust_mozprofile.bpQySM1GV0Cr\\extensions\\firebug@software.joehewitt.com.xpi","installDate":1471940959218,"updateDate":1495169013353,"applyBackgroundUpdates":1,"bootstrap":true,"skinnable":false,"size":9681994,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"toolkit@mozilla.org","minVersion":"30.0a1","maxVersion":"54.0"},{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"30.0a1","maxVersion":"54.0"}],"targetPlatforms":[],"multiprocessCompatible":true,"signedState":2,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false,"userPermissions":null}
+1495169035255	addons.xpi	DEBUG	Add-on FireXPath@pierre.tholence.com blocks e10s rollout.
+1495169035255	DeferredSave.extensions.json	DEBUG	Save changes
+1495169035255	addons.xpi	DEBUG	Updating database with changes to installed add-ons
+1495169035255	addons.xpi-utils	DEBUG	Updating add-on states
+1495169035264	addons.xpi-utils	DEBUG	Writing add-ons list
+1495169035324	addons.xpi	DEBUG	Registering manifest for C:\Users\dnnvu\AppData\Local\Temp\rust_mozprofile.bpQySM1GV0Cr\extensions\firebug@software.joehewitt.com.xpi
+1495169035326	addons.xpi	DEBUG	Calling bootstrap method startup on firebug@software.joehewitt.com version 2.0.19
+1495169035340	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
+1495169035340	addons.manager	DEBUG	Provider finished startup: XPIProvider
+1495169035341	addons.manager	DEBUG	Starting provider: LightweightThemeManager
+1495169035341	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
+1495169035341	addons.manager	DEBUG	Provider finished startup: LightweightThemeManager
+1495169035341	addons.manager	DEBUG	Starting provider: GMPProvider
+1495169035351	addons.manager	DEBUG	Registering shutdown blocker for GMPProvider
+1495169035351	addons.manager	DEBUG	Provider finished startup: GMPProvider
+1495169035352	addons.manager	DEBUG	Starting provider: PluginProvider
+1495169035352	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
+1495169035352	addons.manager	DEBUG	Provider finished startup: PluginProvider
+1495169035352	addons.manager	DEBUG	Completed startup sequence
+JavaScript error: jar:file:///C:/Users/dnnvu/AppData/Local/Temp/rust_mozprofile.bpQySM1GV0Cr/extensions/%7Bf13b157f-b174-47e7-a34d-4815ddfdfeb8%7D.xpi!/components/venkman-service.js, line 195: TypeError: Components.classes[JSD_CTRID] is undefined
+1495169037335	DeferredSave.extensions.json	DEBUG	Starting timer
+1495169037391	addons.manager	DEBUG	Starting provider: PreviousExperimentProvider
+1495169037392	addons.manager	DEBUG	Registering shutdown blocker for PreviousExperimentProvider
+1495169037392	addons.manager	DEBUG	Provider finished startup: PreviousExperimentProvider
+1495169037423	DeferredSave.extensions.json	DEBUG	Starting write
+1495169037907	DeferredSave.extensions.json	DEBUG	Write succeeded
+1495169039371	Marionette	INFO	Listening on port 53095
+1495169039390	addons.manager	DEBUG	Starting provider: <unnamed-provider>
+1495169039390	addons.manager	DEBUG	Registering shutdown blocker for <unnamed-provider>
+1495169039391	addons.manager	DEBUG	Provider finished startup: <unnamed-provider>
+May 19, 2017 11:44:00 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+</testsuite>

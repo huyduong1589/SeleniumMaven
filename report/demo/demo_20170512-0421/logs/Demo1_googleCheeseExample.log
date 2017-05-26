@@ -1,0 +1,5 @@
+2017-05-12 11:22:29 [pool-2-thread-1] INFO  TestResultListener - Started test 'Demo1:googleCheeseExample'
+2017-05-12 11:22:29 [pool-2-thread-1] INFO  DriverFactory - Creating a new webdriver
+2017-05-12 11:22:37 [pool-2-thread-1] INFO  DriverFactory - Using existing webdriver
+2017-05-12 11:22:37 [pool-2-thread-1] INFO  ScreenshotListener - Created screenshot folder at D:\TA\automationFW\myinstall\automationFW\workspace\SeleniumMaven\report\demo\demo_20170512-0421\screenshots
+2017-05-12 11:22:37 [pool-2-thread-1] INFO  ScreenshotListener - Written screenshot to D:\TA\automationFW\myinstall\automationFW\workspace\SeleniumMaven/report/demo/demo_20170512-0421\screenshots\googleCheeseExample_Demo1_firefox__WINDOWS_.png

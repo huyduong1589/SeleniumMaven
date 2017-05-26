@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="89.333" tests="2" errors="0" skipped="0" failures="2">
+  <properties>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="proxyEnabled" value="false"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_121\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_121\jre\classes"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.runtime.version" value="1.8.0_121-b13"/>
+    <property name="http.proxyPort" value="8080"/>
+    <property name="user.name" value="dnnvu"/>
+    <property name="retryOnFail" value="0"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="user.language" value="en"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_121\jre\bin"/>
+    <property name="classworlds.conf" value="D:\Automation\automationFW\automationFW\workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf247105148331653831.tmp"/>
+    <property name="java.version" value="1.8.0_121"/>
+    <property name="user.timezone" value="Asia/Bangkok"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="proxyPort" value="8080"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_121\jre\lib\endorsed"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="user.country" value="US"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_121\jre"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="os.version" value="6.1"/>
+    <property name="platform" value="WINDOWS"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.version" value="25.121-b13"/>
+    <property name="user.variant" value=""/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="user.script" value=""/>
+    <property name="user.home" value="C:\Users\dnnvu"/>
+    <property name="screenshot" value="D:\Automation\automationFW\automationFW\workspace\SeleniumMaven\screenshots"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_121\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jdk1.8.0_121/bin/../jre/bin/server;C:/Program Files/Java/jdk1.8.0_121/bin/../jre/bin;C:/Program Files/Java/jdk1.8.0_121/bin/../jre/lib/amd64;C:\Program Files (x86)\Common Files\NetSarang;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\TortoiseSVN\bin;C:\Program Files (x86)\Skype\Phone\;C:\Program Files (x86)\PuTTY\;C:\Users\dnnvu\AppData\Local\Programs\Python\Launcher\;C:\Python27;C:\Python27\Scripts\;C:\Program Files\Java\jdk1.8.0_121\bin;D:\Program Files\Nodejs;D:\Automation\automationFW\automationFW;;."/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="D:\Automation\automationFW\automationFW\workspace\SeleniumMaven\EMBEDDED"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -Dremote=true -DseleniumGridURL=http://11.11.254.60:4444//wd/hub -Dplatform=WINDOWS -Dbrowser=firefox -DbrowserVersion=46 -Dscreenshot=D:\Automation\automationFW\automationFW\workspace\SeleniumMaven\screenshots -DretryOnFail=0 -Dthreads=1 -Dsuite=demo -DproxyEnabled=false -DproxyHost=10.10.10.10 -DproxyPort=8080 -B verify"/>
+    <property name="java.class.path" value="/D:/Automation/automationFW/automationFW/eclipse/plugins/org.eclipse.m2e.maven.runtime_1.6.2.20150902-0001/jars/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="browserVersion" value="46"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="suite" value="demo"/>
+    <property name="java.io.tmpdir" value="C:\Users\dnnvu\AppData\Local\Temp\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="maven.multiModuleProjectDirectory" value="D:\Automation\automationFW\automationFW\workspace\SeleniumMaven"/>
+    <property name="remote" value="true"/>
+    <property name="http.proxyHost" value="10.10.10.10"/>
+    <property name="threads" value="1"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="user.dir" value="D:\Automation\automationFW\automationFW\workspace\SeleniumMaven"/>
+    <property name="browser" value="firefox"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="seleniumGridURL" value="http://11.11.254.60:4444//wd/hub"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="proxyHost" value="10.10.10.10"/>
+    <property name="java.specification.version" value="1.8"/>
+  </properties>
+  <testcase name="googleCheeseExample" classname="demo.Demo1" time="23.955">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
+	at demo.Demo1.googleCheeseExample(Demo1.java:43)
+</failure>
+    <system-out><![CDATA[2017-05-23 16:21:24 [pool-2-thread-1] INFO  Log listener - Clear log
+2017-05-23 16:21:24 [pool-2-thread-1] INFO  TestResultListener - Started test 'Demo1:googleCheeseExample'
+Report is stored under: D:\Automation\automationFW\automationFW\workspace\SeleniumMaven/report/demo/firefox_20170523-0921
+2017-05-23 16:21:24 [pool-2-thread-1] INFO  DriverFactory - Creating a new webdriver
+*Current URL: https://webmail.tma.com.vn/
+2017-05-23 16:21:48 [pool-2-thread-1] INFO  DriverFactory - Using existing webdriver
+2017-05-23 16:21:48 [pool-2-thread-1] INFO  ScreenshotListener - Created screenshot folder at D:\Automation\automationFW\automationFW\workspace\SeleniumMaven\report\demo\firefox_20170523-0921\screenshots
+2017-05-23 16:21:48 [pool-2-thread-1] INFO  ScreenshotListener - Written screenshot to D:\Automation\automationFW\automationFW\workspace\SeleniumMaven/report/demo/firefox_20170523-0921\screenshots\googleCheeseExample_Demo1_firefox_46_WINDOWS_.png
+]]></system-out>
+    <system-err><![CDATA[May 23, 2017 4:21:32 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
+  </testcase>
+  <testcase name="googleCheeseExample" classname="demo.Demo2" time="56.311">
+    <failure message="Unable to connect to host 127.0.0.1 on port 7055 after 45000 ms. Firefox console output:&#10;&quot;name&quot;:&quot;Default&quot;,&quot;description&quot;:&quot;The default theme.&quot;,&quot;creator&quot;:&quot;Mozilla&quot;,&quot;homepageURL&quot;:null,&quot;contributors&quot;:[&quot;Mozilla Contributors&quot;]},&quot;visible&quot;:true,&quot;active&quot;:true,&quot;userDisabled&quot;:false,&quot;appDisabled&quot;:false,&quot;descriptor&quot;:&quot;C:\\Program Files\\Mozilla Firefox\\browser\\extensions\\{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi&quot;,&quot;installDate&quot;:1495506151155,&quot;updateDate&quot;:1495506151155,&quot;applyBackgroundUpdates&quot;:1,&quot;skinnable&quot;:true,&quot;size&quot;:8207,&quot;sourceURI&quot;:null,&quot;releaseNotesURI&quot;:null,&quot;softDisabled&quot;:false,&quot;foreignInstall&quot;:false,&quot;hasBinaryComponents&quot;:false,&quot;strictCompatibility&quot;:true,&quot;locales&quot;:[],&quot;targetApplications&quot;:[{&quot;id&quot;:&quot;{ec8030f7-c20a-464f-9b0e-13a3a9e97384}&quot;,&quot;minVersion&quot;:&quot;53.0.3&quot;,&quot;maxVersion&quot;:&quot;53.0.3&quot;}],&quot;targetPlatforms&quot;:[],&quot;seen&quot;:true,&quot;dependencies&quot;:[],&quot;hasEmbeddedWebExtension&quot;:false,&quot;userPermissions&quot;:null}&#10;1495506231429	addons.xpi	DEBUG	getModTime: Recursive scan of {972ce4c6-7e08-4474-a285-3208198ce6fd}&#10;1495506231430	DeferredSave.extensions.json	DEBUG	Save changes&#10;1495506231431	addons.xpi	DEBUG	Updating database with changes to installed add-ons&#10;1495506231431	addons.xpi-utils	DEBUG	Updating add-on states&#10;1495506231432	addons.xpi-utils	DEBUG	Writing add-ons list&#10;1495506231435	addons.xpi	DEBUG	Registering manifest for C:\Program Files\Mozilla Firefox\browser\features\aushelper@mozilla.org.xpi&#10;1495506231435	addons.xpi	DEBUG	Calling bootstrap method startup on aushelper@mozilla.org version 2.0&#10;1495506231437	addons.xpi	DEBUG	Registering manifest for C:\Program Files\Mozilla Firefox\browser\features\e10srollout@mozilla.org.xpi&#10;1495506231438	addons.xpi	DEBUG	Calling bootstrap method startup on e10srollout@mozilla.org version 1.14&#10;1495506231439	addons.xpi	DEBUG	Registering manifest for C:\Program Files\Mozilla Firefox\browser\features\firefox@getpocket.com.xpi&#10;1495506231440	addons.xpi	DEBUG	Calling bootstrap method startup on firefox@getpocket.com version 1.0.5&#10;1495506231441	addons.xpi	DEBUG	Registering manifest for C:\Program Files\Mozilla Firefox\browser\features\webcompat@mozilla.org.xpi&#10;1495506231442	addons.xpi	DEBUG	Calling bootstrap method startup on webcompat@mozilla.org version 1.0&#10;1495506231445	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider&#10;1495506231446	addons.manager	DEBUG	Provider finished startup: XPIProvider&#10;1495506231447	addons.manager	DEBUG	Starting provider: LightweightThemeManager&#10;1495506231448	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager&#10;1495506231448	addons.manager	DEBUG	Provider finished startup: LightweightThemeManager&#10;1495506231449	addons.manager	DEBUG	Starting provider: GMPProvider&#10;1495506231455	addons.manager	DEBUG	Registering shutdown blocker for GMPProvider&#10;1495506231455	addons.manager	DEBUG	Provider finished startup: GMPProvider&#10;1495506231455	addons.manager	DEBUG	Starting provider: PluginProvider&#10;1495506231455	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider&#10;1495506231456	addons.manager	DEBUG	Provider finished startup: PluginProvider&#10;1495506231457	addons.manager	DEBUG	Completed startup sequence&#10;1495506233975	DeferredSave.extensions.json	DEBUG	Starting write&#10;1495506233984	addons.manager	DEBUG	Starting provider: &lt;unnamed-provider&gt;&#10;1495506233984	addons.manager	DEBUG	Registering shutdown blocker for &lt;unnamed-provider&gt;&#10;1495506233985	addons.manager	DEBUG	Provider finished startup: &lt;unnamed-provider&gt;&#10;1495506234330	addons.repository	DEBUG	No addons.json found.&#10;1495506234331	DeferredSave.addons.json	DEBUG	Save changes&#10;1495506234337	DeferredSave.addons.json	DEBUG	Starting timer&#10;1495506234365	addons.manager	DEBUG	Starting provider: PreviousExperimentProvider&#10;1495506234366	addons.manager	DEBUG	Registering shutdown blocker for PreviousExperimentProvider&#10;1495506234384	addons.manager	DEBUG	Provider finished startup: PreviousExperimentProvider&#10;1495506234392	DeferredSave.extensions.json	DEBUG	Write succeeded&#10;1495506234394	addons.xpi-utils	DEBUG	XPI Database saved, setting schema version preference to 19&#10;1495506234396	DeferredSave.addons.json	DEBUG	Starting write&#10;1495506234447	DeferredSave.addons.json	DEBUG	Write succeeded&#10;&#10;Command duration or timeout: 46.93 seconds" type="org.openqa.selenium.WebDriverException"><![CDATA[org.openqa.selenium.WebDriverException: 
+Unable to connect to host 127.0.0.1 on port 7055 after 45000 ms. Firefox console output:
+"name":"Default","description":"The default theme.","creator":"Mozilla","homepageURL":null,"contributors":["Mozilla Contributors"]},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"descriptor":"C:\\Program Files\\Mozilla Firefox\\browser\\extensions\\{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi","installDate":1495506151155,"updateDate":1495506151155,"applyBackgroundUpdates":1,"skinnable":true,"size":8207,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":true,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"53.0.3","maxVersion":"53.0.3"}],"targetPlatforms":[],"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"userPermissions":null}
+1495506231429	addons.xpi	DEBUG	getModTime: Recursive scan of {972ce4c6-7e08-4474-a285-3208198ce6fd}
+1495506231430	DeferredSave.extensions.json	DEBUG	Save changes
+1495506231431	addons.xpi	DEBUG	Updating database with changes to installed add-ons
+1495506231431	addons.xpi-utils	DEBUG	Updating add-on states
+1495506231432	addons.xpi-utils	DEBUG	Writing add-ons list
+1495506231435	addons.xpi	DEBUG	Registering manifest for C:\Program Files\Mozilla Firefox\browser\features\aushelper@mozilla.org.xpi
+1495506231435	addons.xpi	DEBUG	Calling bootstrap method startup on aushelper@mozilla.org version 2.0
+1495506231437	addons.xpi	DEBUG	Registering manifest for C:\Program Files\Mozilla Firefox\browser\features\e10srollout@mozilla.org.xpi
+1495506231438	addons.xpi	DEBUG	Calling bootstrap method startup on e10srollout@mozilla.org version 1.14
+1495506231439	addons.xpi	DEBUG	Registering manifest for C:\Program Files\Mozilla Firefox\browser\features\firefox@getpocket.com.xpi
+1495506231440	addons.xpi	DEBUG	Calling bootstrap method startup on firefox@getpocket.com version 1.0.5
+1495506231441	addons.xpi	DEBUG	Registering manifest for C:\Program Files\Mozilla Firefox\browser\features\webcompat@mozilla.org.xpi
+1495506231442	addons.xpi	DEBUG	Calling bootstrap method startup on webcompat@mozilla.org version 1.0
+1495506231445	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
+1495506231446	addons.manager	DEBUG	Provider finished startup: XPIProvider
+1495506231447	addons.manager	DEBUG	Starting provider: LightweightThemeManager
+1495506231448	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
+1495506231448	addons.manager	DEBUG	Provider finished startup: LightweightThemeManager
+1495506231449	addons.manager	DEBUG	Starting provider: GMPProvider
+1495506231455	addons.manager	DEBUG	Registering shutdown blocker for GMPProvider
+1495506231455	addons.manager	DEBUG	Provider finished startup: GMPProvider
+1495506231455	addons.manager	DEBUG	Starting provider: PluginProvider
+1495506231455	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
+1495506231456	addons.manager	DEBUG	Provider finished startup: PluginProvider
+1495506231457	addons.manager	DEBUG	Completed startup sequence
+1495506233975	DeferredSave.extensions.json	DEBUG	Starting write
+1495506233984	addons.manager	DEBUG	Starting provider: <unnamed-provider>
+1495506233984	addons.manager	DEBUG	Registering shutdown blocker for <unnamed-provider>
+1495506233985	addons.manager	DEBUG	Provider finished startup: <unnamed-provider>
+1495506234330	addons.repository	DEBUG	No addons.json found.
+1495506234331	DeferredSave.addons.json	DEBUG	Save changes
+1495506234337	DeferredSave.addons.json	DEBUG	Starting timer
+1495506234365	addons.manager	DEBUG	Starting provider: PreviousExperimentProvider
+1495506234366	addons.manager	DEBUG	Registering shutdown blocker for PreviousExperimentProvider
+1495506234384	addons.manager	DEBUG	Provider finished startup: PreviousExperimentProvider
+1495506234392	DeferredSave.extensions.json	DEBUG	Write succeeded
+1495506234394	addons.xpi-utils	DEBUG	XPI Database saved, setting schema version preference to 19
+1495506234396	DeferredSave.addons.json	DEBUG	Starting write
+1495506234447	DeferredSave.addons.json	DEBUG	Write succeeded
+
+Command duration or timeout: 46.93 seconds
+	at demo.Demo2.googleCheeseExample(Demo2.java:28)
+Caused by: org.openqa.selenium.remote.ErrorHandler$UnknownServerException: 
+Unable to connect to host 127.0.0.1 on port 7055 after 45000 ms. Firefox console output:
+"name":"Default","description":"The default theme.","creator":"Mozilla","homepageURL":null,"contributors":["Mozilla Contributors"]},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"descriptor":"C:\\Program Files\\Mozilla Firefox\\browser\\extensions\\{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi","installDate":1495506151155,"updateDate":1495506151155,"applyBackgroundUpdates":1,"skinnable":true,"size":8207,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":true,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"53.0.3","maxVersion":"53.0.3"}],"targetPlatforms":[],"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"userPermissions":null}
+1495506231429	addons.xpi	DEBUG	getModTime: Recursive scan of {972ce4c6-7e08-4474-a285-3208198ce6fd}
+1495506231430	DeferredSave.extensions.json	DEBUG	Save changes
+1495506231431	addons.xpi	DEBUG	Updating database with changes to installed add-ons
+1495506231431	addons.xpi-utils	DEBUG	Updating add-on states
+1495506231432	addons.xpi-utils	DEBUG	Writing add-ons list
+1495506231435	addons.xpi	DEBUG	Registering manifest for C:\Program Files\Mozilla Firefox\browser\features\aushelper@mozilla.org.xpi
+1495506231435	addons.xpi	DEBUG	Calling bootstrap method startup on aushelper@mozilla.org version 2.0
+1495506231437	addons.xpi	DEBUG	Registering manifest for C:\Program Files\Mozilla Firefox\browser\features\e10srollout@mozilla.org.xpi
+1495506231438	addons.xpi	DEBUG	Calling bootstrap method startup on e10srollout@mozilla.org version 1.14
+1495506231439	addons.xpi	DEBUG	Registering manifest for C:\Program Files\Mozilla Firefox\browser\features\firefox@getpocket.com.xpi
+1495506231440	addons.xpi	DEBUG	Calling bootstrap method startup on firefox@getpocket.com version 1.0.5
+1495506231441	addons.xpi	DEBUG	Registering manifest for C:\Program Files\Mozilla Firefox\browser\features\webcompat@mozilla.org.xpi
+1495506231442	addons.xpi	DEBUG	Calling bootstrap method startup on webcompat@mozilla.org version 1.0
+1495506231445	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
+1495506231446	addons.manager	DEBUG	Provider finished startup: XPIProvider
+1495506231447	addons.manager	DEBUG	Starting provider: LightweightThemeManager
+1495506231448	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
+1495506231448	addons.manager	DEBUG	Provider finished startup: LightweightThemeManager
+1495506231449	addons.manager	DEBUG	Starting provider: GMPProvider
+1495506231455	addons.manager	DEBUG	Registering shutdown blocker for GMPProvider
+1495506231455	addons.manager	DEBUG	Provider finished startup: GMPProvider
+1495506231455	addons.manager	DEBUG	Starting provider: PluginProvider
+1495506231455	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
+1495506231456	addons.manager	DEBUG	Provider finished startup: PluginProvider
+1495506231457	addons.manager	DEBUG	Completed startup sequence
+1495506233975	DeferredSave.extensions.json	DEBUG	Starting write
+1495506233984	addons.manager	DEBUG	Starting provider: <unnamed-provider>
+1495506233984	addons.manager	DEBUG	Registering shutdown blocker for <unnamed-provider>
+1495506233985	addons.manager	DEBUG	Provider finished startup: <unnamed-provider>
+1495506234330	addons.repository	DEBUG	No addons.json found.
+1495506234331	DeferredSave.addons.json	DEBUG	Save changes
+1495506234337	DeferredSave.addons.json	DEBUG	Starting timer
+1495506234365	addons.manager	DEBUG	Starting provider: PreviousExperimentProvider
+1495506234366	addons.manager	DEBUG	Registering shutdown blocker for PreviousExperimentProvider
+1495506234384	addons.manager	DEBUG	Provider finished startup: PreviousExperimentProvider
+1495506234392	DeferredSave.extensions.json	DEBUG	Write succeeded
+1495506234394	addons.xpi-utils	DEBUG	XPI Database saved, setting schema version preference to 19
+1495506234396	DeferredSave.addons.json	DEBUG	Starting write
+1495506234447	DeferredSave.addons.json	DEBUG	Write succeeded
+
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'DNNVU', ip: '169.254.140.181', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: driver.version: FirefoxDriver
+]]></failure>
+    <system-out><![CDATA[BROWSER:   FIREFOX
+HERERERRERERERREE:     Demo1_googleCheeseExample
+2017-05-23 16:21:51 [pool-2-thread-1] ERROR TestResultListener - Test 'Demo1:googleCheeseExample' FAILED
+List: 1
+2017-05-23 16:21:52 [pool-2-thread-1] INFO  Log listener - Clear log
+2017-05-23 16:21:52 [pool-2-thread-1] INFO  TestResultListener - Started test 'Demo2:googleCheeseExample'
+Report is stored under: D:\Automation\automationFW\automationFW\workspace\SeleniumMaven/report/demo/firefox_20170523-0921
+2017-05-23 16:21:52 [pool-2-thread-1] INFO  DriverFactory - Creating a new webdriver
+2017-05-23 16:22:39 [pool-2-thread-1] INFO  DriverFactory - Creating a new webdriver
+2017-05-23 16:22:48 [pool-2-thread-1] INFO  ScreenshotListener - Written screenshot to D:\Automation\automationFW\automationFW\workspace\SeleniumMaven/report/demo/firefox_20170523-0921\screenshots\googleCheeseExample_Demo2_firefox_46_WINDOWS_.png
+]]></system-out>
+    <system-err><![CDATA[May 23, 2017 4:22:47 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
+  </testcase>
+</testsuite>

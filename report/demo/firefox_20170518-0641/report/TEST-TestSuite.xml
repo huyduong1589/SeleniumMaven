@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="19.416" tests="2" errors="0" skipped="0" failures="2">
+  <properties>
+    <property name="platform" value="WINDOWS"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_112\jre\bin"/>
+    <property name="java.vm.version" value="25.112-b15"/>
+    <property name="browser" value="firefox"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="D:\TA\automationFW\myinstall\automationFW\eclipse\${workspace_loc:\maven-template}"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="threads" value="1"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="remote" value="false"/>
+    <property name="retryOnFail" value="0"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="D:\TA\automationFW\myinstall\automationFW\workspace\SeleniumMaven"/>
+    <property name="java.runtime.version" value="1.8.0_112-b15"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_112\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\dmhuy\AppData\Local\Temp\"/>
+    <property name="proxyPort" value="8111"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="classworlds.conf" value="D:\TA\automationFW\myinstall\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf7212201573827914600.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_112\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jdk1.8.0_112/bin/../jre/bin/server;C:/Program Files/Java/jdk1.8.0_112/bin/../jre/bin;C:/Program Files/Java/jdk1.8.0_112/bin/../jre/lib/amd64;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\TortoiseSVN\bin;C:\Program Files\nodejs\;C:\Program Files\Java\jdk1.8.0_112\bin;C:\HashiCorp\Vagrant\bin;D:\Soft\Maven\apache-maven-3.3.9\bin;C:\Program Files (x86)\Skype\Phone\; D:\Soft\opencv\build\x64\vc14\bin;C:\Program Files\MATLAB\R2017a\bin;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Users\dmhuy\AppData\Roaming\npm;C:\Ruby23-x64\bin;D:\Soft\Automation\android\android-sdk-windows\tools;D:\Soft\Automation\android\android-sdk-windows\platform-tools;C:\Program Files\Java\jdk1.8.0_112\bin; D:\Soft\opencv\build\x64\vc14\bin;D:\TA\automationFW\myinstall\automationFW\eclipse;;."/>
+    <property name="http.proxyPort" value="8111"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="suite" value="demo"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="6.1"/>
+    <property name="user.home" value="C:\Users\dmhuy"/>
+    <property name="user.timezone" value="Asia/Bangkok"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="dmhuy"/>
+    <property name="java.class.path" value="/D:/TA/automationFW/myinstall/automationFW/eclipse/plugins/org.eclipse.m2e.maven.runtime_1.6.2.20150902-0001/jars/plexus-classworlds-2.5.2.jar"/>
+    <property name="proxyHost" value="10.10.10.10"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_112\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -Dremote=false -Dplatform=WINDOWS -Dbrowser=firefox -Dscreenshot=D:\TA\automationFW\myinstall\automationFW\workspace\SeleniumMaven\screenshots -DretryOnFail=0 -Dthreads=1 -DproxyEnabled=true -DproxyHost=10.10.10.10 -DproxyPort=8111 -Dsuite=demo -B verify"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_112"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_112\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_112\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_112\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_112\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_112\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_112\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_112\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_112\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_112\jre\classes"/>
+    <property name="http.proxyHost" value="10.10.10.10"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="D:\TA\automationFW\myinstall\automationFW\workspace\SeleniumMaven\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="proxyEnabled" value="true"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="screenshot" value="D:\TA\automationFW\myinstall\automationFW\workspace\SeleniumMaven\screenshots"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="googleCheeseExample" classname="demo.Demo1" time="14.109">
+    <failure message="InvalidArgumentError: Expected [object Undefined] undefined to be an integer&#10;Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;&#10;System info: host: &apos;DMHUY&apos;, ip: &apos;169.254.34.105&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_112&apos;&#10;Driver info: driver.version: FirefoxDriver&#10;remote stacktrace: stack backtrace:&#10;   0:   0x47f1a6 - &lt;no info&gt;&#10;   1:   0x437327 - &lt;no info&gt;&#10;   2:   0x43ff79 - &lt;no info&gt;&#10;   3:   0x41d73d - &lt;no info&gt;&#10;   4:   0x40570c - &lt;no info&gt;&#10;   5:   0x692906 - &lt;no info&gt;&#10;   6:   0x413838 - &lt;no info&gt;&#10;   7:   0x68d401 - &lt;no info&gt;&#10;   8: 0x7580336a - BaseThreadInitThunk&#10;   9: 0x77d29902 - RtlInitializeExceptionChain" type="org.openqa.selenium.SessionNotCreatedException"><![CDATA[org.openqa.selenium.SessionNotCreatedException: 
+InvalidArgumentError: Expected [object Undefined] undefined to be an integer
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'DMHUY', ip: '169.254.34.105', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_112'
+Driver info: driver.version: FirefoxDriver
+remote stacktrace: stack backtrace:
+   0:   0x47f1a6 - <no info>
+   1:   0x437327 - <no info>
+   2:   0x43ff79 - <no info>
+   3:   0x41d73d - <no info>
+   4:   0x40570c - <no info>
+   5:   0x692906 - <no info>
+   6:   0x413838 - <no info>
+   7:   0x68d401 - <no info>
+   8: 0x7580336a - BaseThreadInitThunk
+   9: 0x77d29902 - RtlInitializeExceptionChain
+	at demo.Demo1.googleCheeseExample(Demo1.java:26)
+]]></failure>
+    <system-out><![CDATA[2017-05-18 13:42:07 [pool-2-thread-1] INFO  Log listener - Clear log
+2017-05-18 13:42:07 [pool-2-thread-1] INFO  TestResultListener - Started test 'Demo1:googleCheeseExample'
+Report is stored under: D:\TA\automationFW\myinstall\automationFW\workspace\SeleniumMaven/report/demo/firefox_20170518-0641
+2017-05-18 13:42:07 [pool-2-thread-1] INFO  DriverFactory - Creating a new webdriver
+2017-05-18 13:42:15 [pool-2-thread-1] INFO  DriverFactory - Creating a new webdriver
+2017-05-18 13:42:21 [pool-2-thread-1] ERROR ScreenshotListener - Unable to capture screenshot...
+]]></system-out>
+    <system-err><![CDATA[1495089728815	geckodriver	INFO	Listening on 127.0.0.1:30633
+1495089729578	geckodriver::marionette	INFO	Starting browser \\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+[ODEBUG] [Explorer Probe] [disableSPDY]#In disableSPDY()[ODEBUG] [Explorer Probe] [disableSPDY]#Trying to get profile path from command line if exists1495089731164	adJavaScript error: resource://gre/modules/AddonManager.jsm, line 1657: NS_ERROR_NOT_INITIALIZED: AddonManager is not initialized
+dons.manager	ERROR	startup failed: [Exception... "Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIFile.create]"  nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)"  location: "JS frame :: resource://gre/modules/FileUtils.jsm :: FileUtils_getDir :: line 70"  data: no] Stack trace: FileUtils_getDir()@resource://gre/modules/FileUtils.jsm:70 < FileUtils_getFile()@resource://gre/modules/FileUtils.jsm:42 < validateBlocklist()@resource://gre/modules/AddonManager.jsm:671 < startup()@resource://gre/modules/AddonManager.jsm:834 < startup()@resource://gre/modules/AddonManager.jsm:3129 < observe()@resource://gre/components/addonManager.js:65
+1495089734806	Marionette	INFO	Listening on port 53883
+JavaScript error: resource://gre/modules/AddonManager.jsm, line 2570: NS_ERROR_NOT_INITIALIZED: AddonManager is not initialized
+1495089735335	geckodriver	INFO	Listening on 127.0.0.1:34758
+1495089735823	geckodriver::marionette	INFO	Starting browser \\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+[ODEBUG] [Explorer Probe] [disableSPDY]#In disableSPDY()[ODEBUG] [Explorer Probe] [disableSPDY]#Trying to get profile path from command line if exists1495089737656	addons.manager	ERRORJ	startup failed: [Exception... "Component returned failure code: 0x80070057 (NS_ERROR_ILaLEGAL_VALUE) [nsIFile.creavaScript error: resource://gre/modules/AddonManager.jsm, line 1657: NS_ERROR_NOT_INITIALIZED: AddonManager is not initialized
+te]"  nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)"  location: "JS frame :: resource://gre/modules/FileUtils.jsm :: FileUtils_getDir :: line 70"  data: no] Stack trace: FileUtils_getDir()@resource://gre/modules/FileUtils.jsm:70 < FileUtils_getFile()@resource://gre/modules/FileUtils.jsm:42 < validateBlocklist()@resource://gre/modules/AddonManager.jsm:671 < startup()@resource://gre/modules/AddonManager.jsm:834 < startup()@resource://gre/modules/AddonManager.jsm:3129 < observe()@resource://gre/components/addonManager.js:65
+1495089741215	Marionette	INFO	Listening on port 53899
+JavaScript error: resource://gre/modules/AddonManager.jsm, line 2570: NS_ERROR_NOT_INITIALIZED: AddonManager is not initialized
+org.openqa.selenium.SessionNotCreatedException: InvalidArgumentError: Expected [object Undefined] undefined to be an integer
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'DMHUY', ip: '169.254.34.105', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_112'
+Driver info: driver.version: FirefoxDriver
+remote stacktrace: stack backtrace:
+   0:   0x47f1a6 - <no info>
+   1:   0x437327 - <no info>
+   2:   0x43ff79 - <no info>
+   3:   0x41d73d - <no info>
+   4:   0x40570c - <no info>
+   5:   0x692906 - <no info>
+   6:   0x413838 - <no info>
+   7:   0x68d401 - <no info>
+   8: 0x7580336a - BaseThreadInitThunk
+   9: 0x77d29902 - RtlInitializeExceptionChain
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$new$0(W3CHandshakeResponse.java:57)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$getResponseFunction$2(W3CHandshakeResponse.java:104)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$22(ProtocolHandshake.java:365)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:498)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:485)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:368)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:159)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:250)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:236)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:137)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:191)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:108)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:137)
+	at automationCore.WebDriverThread.createLocalDriver(WebDriverThread.java:98)
+	at automationCore.WebDriverThread.createDriver(WebDriverThread.java:112)
+	at automationCore.DriverFactory.getDriver(DriverFactory.java:29)
+	at automationCore.ScreenshotListenerUpdate.onTestFailure(ScreenshotListenerUpdate.java:59)
+	at org.testng.internal.Invoker.runTestListeners(Invoker.java:1655)
+	at org.testng.internal.Invoker.runTestListeners(Invoker.java:1639)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:703)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:811)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1129)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+]]></system-err>
+  </testcase>
+  <testcase name="clearCookies" classname="demo.Demo1" time="17.566">
+    <failure message="Index: 0, Size: 0" type="java.lang.IndexOutOfBoundsException">java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+</failure>
+    <system-out><![CDATA[BROWSER:   FIREFOX
+HERERERRERERERREE:     Demo1_googleCheeseExample
+2017-05-18 13:42:25 [pool-2-thread-1] ERROR TestResultListener - Test 'Demo1:googleCheeseExample' FAILED
+List: 0
+]]></system-out>
+  </testcase>
+</testsuite>

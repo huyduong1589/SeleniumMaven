@@ -1,0 +1,35 @@
+2016-12-05 14:51:07 [pool-2-thread-1] INFO  API Test - *****************Start TC: 
+Create account code group with valid data*********************************
+2016-12-05 14:51:07 [pool-2-thread-1] INFO  API Test - METHOD: POST
+2016-12-05 14:51:08 [pool-2-thread-1] INFO  API Test - BODY IS: {
+    "name": "NA_salesteam",
+    "forced": "enabled",
+    "verified": "enabled",
+    "group_members": [
+        "0000@04a.com"
+    ],
+    "dialing_exception": [
+        "45612"
+    ],
+    "account_codes": [
+        {
+            "name": "sales",
+            "code": "123"
+        },
+        {
+            "name": "accounts",
+            "code": "345"
+        }
+    ]
+}
+2016-12-05 14:51:09 [pool-2-thread-1] INFO  API Test - X-Group-ID: gb1111315nu
+2016-12-05 14:51:09 [pool-2-thread-1] INFO  API Test - X-User-ID: tma
+2016-12-05 14:51:09 [pool-2-thread-1] INFO  API Test - X-User-Token:  fa62d20bcb7392ced40fcec3afb8bb2c
+2016-12-05 14:51:09 [pool-2-thread-1] INFO  API Test - Content-Type: application/json
+2016-12-05 14:51:09 [pool-2-thread-1] INFO  API Test - X-Customer-Group-ID: 57eaa8539550e
+2016-12-05 14:51:09 [pool-2-thread-1] INFO  API Test - URL: http://gba2saas03.genband.com:80/api/rest/3.34/account-code
+2016-12-05 14:51:11 [pool-2-thread-1] INFO  API Test - RETURN: 
+
+2016-12-05 14:51:11 [pool-2-thread-1] INFO  API Test - 401
+2016-12-05 14:51:11 [pool-2-thread-1] ERROR API Test -  The expected return code is: 200 but the actual return code is: 401
+2016-12-05 14:51:11 [pool-2-thread-1] ERROR TestResultListener - Test 'RestAPI:API' FAILED

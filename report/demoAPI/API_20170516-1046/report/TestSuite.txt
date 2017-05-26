@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 11.241 sec <<< FAILURE! - in TestSuite
+API(restDemo.RestAPI)  Time elapsed: 1.24 sec  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at restDemo.RestAPI.API(RestAPI.java:261)
+

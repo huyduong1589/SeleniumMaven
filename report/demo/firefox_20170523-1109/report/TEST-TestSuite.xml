@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="25.833" tests="1" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="platform" value="WINDOWS"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_121\jre\bin"/>
+    <property name="java.vm.version" value="25.121-b13"/>
+    <property name="browser" value="firefox"/>
+    <property name="maven.multiModuleProjectDirectory" value="D:\Automation\automationFW\automationFW\workspace\SeleniumMaven"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="threads" value="1"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="remote" value="true"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="user.script" value=""/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="retryOnFail" value="0"/>
+    <property name="user.dir" value="D:\Automation\automationFW\automationFW\workspace\SeleniumMaven"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.runtime.version" value="1.8.0_121-b13"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_121\jre\lib\endorsed"/>
+    <property name="seleniumGridURL" value="http://11.11.254.60:4444//wd/hub"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.io.tmpdir" value="C:\Users\dnnvu\AppData\Local\Temp\"/>
+    <property name="proxyPort" value="8080"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="classworlds.conf" value="D:\Automation\automationFW\automationFW\workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf4086231404977983537.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_121\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jdk1.8.0_121/bin/../jre/bin/server;C:/Program Files/Java/jdk1.8.0_121/bin/../jre/bin;C:/Program Files/Java/jdk1.8.0_121/bin/../jre/lib/amd64;C:\Program Files (x86)\Common Files\NetSarang;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\TortoiseSVN\bin;C:\Program Files (x86)\Skype\Phone\;C:\Program Files (x86)\PuTTY\;C:\Users\dnnvu\AppData\Local\Programs\Python\Launcher\;C:\Python27;C:\Python27\Scripts\;C:\Program Files\Java\jdk1.8.0_121\bin;D:\Program Files\Nodejs;D:\Automation\automationFW\automationFW;;."/>
+    <property name="http.proxyPort" value="8080"/>
+    <property name="suite" value="demo"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="6.1"/>
+    <property name="user.home" value="C:\Users\dnnvu"/>
+    <property name="user.timezone" value="Asia/Bangkok"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="/D:/Automation/automationFW/automationFW/eclipse/plugins/org.eclipse.m2e.maven.runtime_1.6.2.20150902-0001/jars/plexus-classworlds-2.5.2.jar"/>
+    <property name="user.name" value="dnnvu"/>
+    <property name="proxyHost" value="10.10.10.10"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -Dremote=true -DseleniumGridURL=http://11.11.254.60:4444//wd/hub -Dplatform=WINDOWS -Dbrowser=firefox -Dscreenshot=D:\Automation\automationFW\automationFW\workspace\SeleniumMaven\screenshots -DretryOnFail=0 -Dthreads=1 -Dsuite=demo -DproxyEnabled=false -DproxyHost=10.10.10.10 -DproxyPort=8080 -B verify"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_121\jre"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_121"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="http.proxyHost" value="10.10.10.10"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_121\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_121\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="D:\Automation\automationFW\automationFW\workspace\SeleniumMaven\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="proxyEnabled" value="false"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="screenshot" value="D:\Automation\automationFW\automationFW\workspace\SeleniumMaven\screenshots"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="googleCheeseExample" classname="demo.Demo1" time="21.323">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
+	at demo.Demo1.googleCheeseExample(Demo1.java:43)
+</failure>
+    <system-out><![CDATA[2017-05-23 18:10:08 [pool-2-thread-1] INFO  Log listener - Clear log
+2017-05-23 18:10:08 [pool-2-thread-1] INFO  TestResultListener - Started test 'Demo1:googleCheeseExample'
+Report is stored under: D:\Automation\automationFW\automationFW\workspace\SeleniumMaven/report/demo/firefox_20170523-1109
+2017-05-23 18:10:08 [pool-2-thread-1] INFO  DriverFactory - Creating a new webdriver
+*Current URL: https://webmail.tma.com.vn/
+2017-05-23 18:10:29 [pool-2-thread-1] INFO  DriverFactory - Using existing webdriver
+2017-05-23 18:10:29 [pool-2-thread-1] INFO  ScreenshotListener - Created screenshot folder at D:\Automation\automationFW\automationFW\workspace\SeleniumMaven\report\demo\firefox_20170523-1109\screenshots
+2017-05-23 18:10:29 [pool-2-thread-1] INFO  ScreenshotListener - Written screenshot to D:\Automation\automationFW\automationFW\workspace\SeleniumMaven/report/demo/firefox_20170523-1109\screenshots\googleCheeseExample_Demo1_firefox__WINDOWS_.png
+]]></system-out>
+    <system-err><![CDATA[May 23, 2017 6:10:15 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
+  </testcase>
+</testsuite>

@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="5.663" tests="2" errors="0" skipped="0" failures="2">
+  <properties>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="proxyEnabled" value="false"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_121\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_121\jre\classes"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.runtime.version" value="1.8.0_121-b13"/>
+    <property name="http.proxyPort" value="8080"/>
+    <property name="user.name" value="dnnvu"/>
+    <property name="retryOnFail" value="0"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="user.language" value="en"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_121\jre\bin"/>
+    <property name="classworlds.conf" value="D:\Automation\automationFW\automationFW\workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf6978604711172384732.tmp"/>
+    <property name="java.version" value="1.8.0_121"/>
+    <property name="user.timezone" value="Asia/Bangkok"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="proxyPort" value="8080"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_121\jre\lib\endorsed"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="user.country" value="US"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_121\jre"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="os.version" value="6.1"/>
+    <property name="platform" value="WINDOWS"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.version" value="25.121-b13"/>
+    <property name="user.variant" value=""/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="user.script" value=""/>
+    <property name="user.home" value="C:\Users\dnnvu"/>
+    <property name="screenshot" value="D:\Automation\automationFW\automationFW\workspace\SeleniumMaven\screenshots"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_121\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jdk1.8.0_121/bin/../jre/bin/server;C:/Program Files/Java/jdk1.8.0_121/bin/../jre/bin;C:/Program Files/Java/jdk1.8.0_121/bin/../jre/lib/amd64;C:\Program Files (x86)\Common Files\NetSarang;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\TortoiseSVN\bin;C:\Program Files (x86)\Skype\Phone\;C:\Program Files (x86)\PuTTY\;C:\Users\dnnvu\AppData\Local\Programs\Python\Launcher\;C:\Python27;C:\Python27\Scripts\;C:\Program Files\Java\jdk1.8.0_121\bin;D:\Program Files\Nodejs;D:\Automation\automationFW\automationFW;;."/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="D:\Automation\automationFW\automationFW\workspace\SeleniumMaven\EMBEDDED"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -Dremote=true -DseleniumGridURL=http://11.11.254.60:4444//wd/hub -Dplatform=WINDOWS -Dbrowser=firefox -DbrowserVersion=53 -Dscreenshot=D:\Automation\automationFW\automationFW\workspace\SeleniumMaven\screenshots -DretryOnFail=0 -Dthreads=1 -Dsuite=demo -DproxyEnabled=false -DproxyHost=10.10.10.10 -DproxyPort=8080 -B verify"/>
+    <property name="java.class.path" value="/D:/Automation/automationFW/automationFW/eclipse/plugins/org.eclipse.m2e.maven.runtime_1.6.2.20150902-0001/jars/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="browserVersion" value="53"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="suite" value="demo"/>
+    <property name="java.io.tmpdir" value="C:\Users\dnnvu\AppData\Local\Temp\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="maven.multiModuleProjectDirectory" value="D:\Automation\automationFW\automationFW\workspace\SeleniumMaven"/>
+    <property name="remote" value="true"/>
+    <property name="http.proxyHost" value="10.10.10.10"/>
+    <property name="threads" value="1"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="user.dir" value="D:\Automation\automationFW\automationFW\workspace\SeleniumMaven"/>
+    <property name="browser" value="firefox"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="seleniumGridURL" value="http://11.11.254.60:4444//wd/hub"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="proxyHost" value="10.10.10.10"/>
+    <property name="java.specification.version" value="1.8"/>
+  </properties>
+  <testcase name="googleCheeseExample" classname="demo.Demo1" time="1.285">
+    <failure message="Unrecognized channel: 53&#10;Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;&#10;System info: host: &apos;WIN7-SELENIUMGR&apos;, ip: &apos;172.29.2.88&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_101&apos;&#10;Driver info: driver.version: FirefoxDriver&#10;Command duration or timeout: 372 milliseconds" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: 
+Unrecognized channel: 53
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'WIN7-SELENIUMGR', ip: '172.29.2.88', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_101'
+Driver info: driver.version: FirefoxDriver
+Command duration or timeout: 372 milliseconds
+	at demo.Demo1.googleCheeseExample(Demo1.java:28)
+Caused by: org.openqa.selenium.WebDriverException: 
+Unrecognized channel: 53
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'WIN7-SELENIUMGR', ip: '172.29.2.88', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_101'
+Driver info: driver.version: FirefoxDriver
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'DNNVU', ip: '169.254.140.181', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: driver.version: FirefoxDriver
+</failure>
+    <system-out><![CDATA[2017-05-23 18:07:51 [pool-2-thread-1] INFO  Log listener - Clear log
+2017-05-23 18:07:51 [pool-2-thread-1] INFO  TestResultListener - Started test 'Demo1:googleCheeseExample'
+Report is stored under: D:\Automation\automationFW\automationFW\workspace\SeleniumMaven/report/demo/firefox_20170523-1107
+2017-05-23 18:07:51 [pool-2-thread-1] INFO  DriverFactory - Creating a new webdriver
+2017-05-23 18:07:52 [pool-2-thread-1] INFO  DriverFactory - Creating a new webdriver
+2017-05-23 18:07:52 [pool-2-thread-1] ERROR ScreenshotListener - Unable to capture screenshot...
+]]></system-out>
+    <system-err><![CDATA[org.openqa.selenium.WebDriverException: Unrecognized channel: 53
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'WIN7-SELENIUMGR', ip: '172.29.2.88', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_101'
+Driver info: driver.version: FirefoxDriver
+Command duration or timeout: 121 milliseconds
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
+	at org.openqa.selenium.remote.JsonWireProtocolResponse.lambda$new$0(JsonWireProtocolResponse.java:53)
+	at org.openqa.selenium.remote.JsonWireProtocolResponse.lambda$getResponseFunction$2(JsonWireProtocolResponse.java:91)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$22(ProtocolHandshake.java:365)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:498)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:485)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:368)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:159)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:250)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:236)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:137)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:174)
+	at automationCore.WebDriverThread.createRemoteDriver(WebDriverThread.java:83)
+	at automationCore.WebDriverThread.createDriver(WebDriverThread.java:112)
+	at automationCore.DriverFactory.getDriver(DriverFactory.java:29)
+	at automationCore.ScreenshotListenerUpdate.onTestFailure(ScreenshotListenerUpdate.java:59)
+	at org.testng.internal.Invoker.runTestListeners(Invoker.java:1655)
+	at org.testng.internal.Invoker.runTestListeners(Invoker.java:1639)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:703)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:811)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1129)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.openqa.selenium.WebDriverException: Unrecognized channel: 53
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'WIN7-SELENIUMGR', ip: '172.29.2.88', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_101'
+Driver info: driver.version: FirefoxDriver
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'DNNVU', ip: '169.254.140.181', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: driver.version: FirefoxDriver
+	at org.openqa.selenium.firefox.FirefoxBinary$Channel.lambda$fromString$1(FirefoxBinary.java:86)
+	at java.util.Optional.orElseThrow(Unknown Source)
+	at org.openqa.selenium.firefox.FirefoxBinary$Channel.fromString(FirefoxBinary.java:86)
+	at org.openqa.selenium.firefox.FirefoxOptions.determineBinaryFromCapabilities(FirefoxOptions.java:245)
+	at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
+	at java.util.stream.Streams$StreamBuilderImpl.tryAdvance(Unknown Source)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(Unknown Source)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(Unknown Source)
+	at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(Unknown Source)
+	at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
+	at java.util.stream.ReferencePipeline.findFirst(Unknown Source)
+	at org.openqa.selenium.firefox.FirefoxOptions.getBinaryOrNull(FirefoxOptions.java:225)
+	at org.openqa.selenium.firefox.FirefoxDriver.toExecutor(FirefoxDriver.java:204)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:108)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:137)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.server.FirefoxDriverProvider.callConstructor(FirefoxDriverProvider.java:81)
+	at org.openqa.selenium.remote.server.FirefoxDriverProvider.newInstance(FirefoxDriverProvider.java:63)
+	at org.openqa.selenium.remote.server.DefaultDriverFactory.newInstance(DefaultDriverFactory.java:60)
+	at org.openqa.selenium.remote.server.DefaultSession$BrowserCreator.call(DefaultSession.java:222)
+	at org.openqa.selenium.remote.server.DefaultSession$BrowserCreator.call(DefaultSession.java:209)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.openqa.selenium.remote.server.DefaultSession$1.run(DefaultSession.java:176)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]></system-err>
+  </testcase>
+  <testcase name="clearCookies" classname="demo.Demo1" time="4.437">
+    <failure message="Index: 0, Size: 0" type="java.lang.IndexOutOfBoundsException">java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+</failure>
+    <system-out><![CDATA[BROWSER:   FIREFOX
+HERERERRERERERREE:     Demo1_googleCheeseExample
+2017-05-23 18:07:55 [pool-2-thread-1] ERROR TestResultListener - Test 'Demo1:googleCheeseExample' FAILED
+List: 0
+]]></system-out>
+  </testcase>
+</testsuite>

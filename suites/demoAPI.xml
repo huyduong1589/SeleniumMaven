@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="demo suite" parallel="methods" thread-count="1" data-provider-thread-count="1">
+  <listeners>
+      <listener class-name="automationCore.RetryListener"/>
+      <listener class-name="automationCore.LogListener"/>
+      <listener class-name="automationCore.TestResultListener"/>
+      <listener class-name="org.imaginea.jenkins.plugins.testinprogress.testng.TestNGProgressRunListener"/>
+  </listeners>
+  <test name="demo suite">
+    <parameter name="waitTime" value="1"/> 
+    <parameter name="url" value="http://10.250.40.50:8080/CloudMgr"></parameter>
+    <parameter name="user" value="dmhuy"/>
+  	<parameter name="password" value="password"/>
+    <parameter name="min" value="3000"/>
+    <parameter name="mid" value="5000"/>
+    <parameter name="max" value="7000"/>
+    <!-- <packages>
+      <package name="automation.demo">
+      </package>
+    </packages> --> 
+    <classes>
+    
+    <class name="restDemo.RestAPI"></class>
+        	                          
+    </classes>
+  </test>
+</suite>

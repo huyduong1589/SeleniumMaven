@@ -1,0 +1,128 @@
+2016-12-07 15:48:36 INFO  RetryExec:94 - I/O exception (java.net.SocketException) caught when processing request to {}->http://localhost:21144: Connection reset
+2016-12-07 15:48:36 INFO  RetryExec:110 - Retrying request to {}->http://localhost:21144
+2017-03-01 20:40:01 INFO  RetryExec:94 - I/O exception (java.net.SocketException) caught when processing request to {}->http://localhost:34612: Connection reset
+2017-03-01 20:40:01 INFO  RetryExec:110 - Retrying request to {}->http://localhost:34612
+2017-03-01 21:21:55 INFO  RetryExec:94 - I/O exception (java.net.SocketException) caught when processing request to {}->http://localhost:1166: Connection reset
+2017-03-01 21:21:56 INFO  RetryExec:110 - Retrying request to {}->http://localhost:1166
+2017-03-03 14:27:56 INFO  RetryExec:94 - I/O exception (java.net.SocketException) caught when processing request to {}->http://localhost:15650: Connection reset
+2017-03-28 17:16:55 INFO  RestClient:39 - Request: {"method":"setImagePrefix","arguments":["\u003chtml\u003e\u003chead\u003e\u003ctitle\u003eSelenium Grid2.0 help\u003c/title\u003e\u003c/head\u003e\u003cbody\u003eYou are using grid 2.48.0\u003cbr\u003eFind help on the official selenium wiki : \u003ca href\u003d\u0027https://github.com/SeleniumHQ/selenium/wiki/Grid2\u0027 \u003emore help here\u003c/a\u003e\u003cbr\u003edefault monitoring page : \u003ca href\u003d\u0027/grid/console\u0027 \u003econsole\u003c/a\u003e\u003c/body\u003e\u003c/html\u003e"],"argumentClasses":["java.lang.String"]}
+2017-03-28 17:16:55 INFO  RestClient:41 - Response: <html><head><title>Selenium Grid2.0 help</title></head><body>You are using grid 2.48.0<br>Find help on the official selenium wiki : <a href='https://github.com/SeleniumHQ/selenium/wiki/Grid2' >more help here</a><br>default monitoring page : <a href='/grid/console' >console</a></body></html>
+2017-03-28 17:33:12 INFO  RestClient:39 - Request: {"method":"setImagePrefix","arguments":["C:\\Users\\test3\\AppData\\Local\\Temp\\1490697237844-0"],"argumentClasses":["java.lang.String"]}
+2017-03-28 17:33:12 INFO  RestClient:41 - Response: {}
+2017-03-28 18:16:30 INFO  RestClient:39 - Request: {"method":"setImagePrefix","arguments":["C:\\Users\\test3\\AppData\\Local\\Temp\\1490699836221-0"],"argumentClasses":["java.lang.String"]}
+2017-03-28 18:16:30 INFO  RestClient:41 - Response: {}
+2017-03-28 18:16:30 INFO  RestClient:39 - Request: {"method":"createImageTarget","arguments":["img\\window.png"],"argumentClasses":["java.lang.String"]}
+2017-03-28 18:16:30 INFO  RestClient:41 - Response: {"value":"6f8ff64d-d273-4952-b5f3-d5a73da32197","type":"org.sikuli.api.ImageTarget"}
+2017-03-28 18:16:30 INFO  RemoteObjectMethodInterceptor:110 - Converting response '6f8ff64d-d273-4952-b5f3-d5a73da32197' to type class org.sikuli.api.ImageTarget or org.sikuli.api.ImageTarget
+2017-03-28 18:16:30 INFO  RestClient:39 - Request: {"method":"find","arguments":["6f8ff64d-d273-4952-b5f3-d5a73da32197"],"argumentClasses":["org.sikuli.api.Target"]}
+2017-03-28 18:16:31 INFO  RestClient:41 - Response: {"value":"5c7911f1-87fb-4527-900a-1c8fa92e2126","type":"org.sikuli.api.DefaultScreenRegion"}
+2017-03-28 18:16:31 INFO  RemoteObjectMethodInterceptor:110 - Converting response '5c7911f1-87fb-4527-900a-1c8fa92e2126' to type interface org.sikuli.api.ScreenRegion or org.sikuli.api.DefaultScreenRegion
+2017-03-28 18:16:32 INFO  RestClient:39 - Request: {"method":"getCenter","arguments":[],"argumentClasses":[]}
+2017-03-28 18:16:32 INFO  RestClient:41 - Response: {"value":"53b512fc-4343-464c-9f27-90c62923e3e3","type":"org.sikuli.api.DefaultScreenLocation"}
+2017-03-28 18:16:32 INFO  RemoteObjectMethodInterceptor:110 - Converting response '53b512fc-4343-464c-9f27-90c62923e3e3' to type interface org.sikuli.api.ScreenLocation or org.sikuli.api.DefaultScreenLocation
+2017-03-28 18:16:32 INFO  RestClient:39 - Request: {"method":"click","arguments":["53b512fc-4343-464c-9f27-90c62923e3e3"],"argumentClasses":["org.sikuli.api.ScreenLocation"]}
+2017-03-28 18:16:32 INFO  RestClient:41 - Response: {}
+2017-03-28 18:21:58 INFO  RestClient:39 - Request: {"method":"setImagePrefix","arguments":["C:\\Users\\test3\\AppData\\Local\\Temp\\1490700164699-0"],"argumentClasses":["java.lang.String"]}
+2017-03-28 18:21:58 INFO  RestClient:41 - Response: {}
+2017-03-28 18:21:58 INFO  RestClient:39 - Request: {"method":"createImageTarget","arguments":["img\\window.png"],"argumentClasses":["java.lang.String"]}
+2017-03-28 18:21:59 INFO  RestClient:41 - Response: {"value":"1f5462cf-8dd1-41d6-a9f4-23e6f015c74e","type":"org.sikuli.api.ImageTarget"}
+2017-03-28 18:21:59 INFO  RemoteObjectMethodInterceptor:110 - Converting response '1f5462cf-8dd1-41d6-a9f4-23e6f015c74e' to type class org.sikuli.api.ImageTarget or org.sikuli.api.ImageTarget
+2017-03-28 18:21:59 INFO  RestClient:39 - Request: {"method":"find","arguments":["1f5462cf-8dd1-41d6-a9f4-23e6f015c74e"],"argumentClasses":["org.sikuli.api.Target"]}
+2017-03-28 18:22:00 INFO  RestClient:41 - Response: {"value":"9cc80f94-9b41-48c2-9518-6aad0b0e0898","type":"org.sikuli.api.DefaultScreenRegion"}
+2017-03-28 18:22:00 INFO  RemoteObjectMethodInterceptor:110 - Converting response '9cc80f94-9b41-48c2-9518-6aad0b0e0898' to type interface org.sikuli.api.ScreenRegion or org.sikuli.api.DefaultScreenRegion
+2017-03-28 18:22:00 INFO  RestClient:39 - Request: {"method":"getCenter","arguments":[],"argumentClasses":[]}
+2017-03-28 18:22:00 INFO  RestClient:41 - Response: {"value":"b9f5d9a6-3980-4433-9800-9857bde43a29","type":"org.sikuli.api.DefaultScreenLocation"}
+2017-03-28 18:22:00 INFO  RemoteObjectMethodInterceptor:110 - Converting response 'b9f5d9a6-3980-4433-9800-9857bde43a29' to type interface org.sikuli.api.ScreenLocation or org.sikuli.api.DefaultScreenLocation
+2017-03-28 18:22:00 INFO  RestClient:39 - Request: {"method":"click","arguments":["b9f5d9a6-3980-4433-9800-9857bde43a29"],"argumentClasses":["org.sikuli.api.ScreenLocation"]}
+2017-03-28 18:22:01 INFO  RestClient:41 - Response: {}
+2017-03-29 09:50:49 INFO  RestClient:39 - Request: {"method":"setImagePrefix","arguments":["C:\\Users\\test3\\AppData\\Local\\Temp\\1490755894967-0"],"argumentClasses":["java.lang.String"]}
+2017-03-29 09:50:49 INFO  RestClient:41 - Response: {}
+2017-03-29 09:50:49 INFO  RestClient:39 - Request: {"method":"createImageTarget","arguments":["img\\SO_icon.png"],"argumentClasses":["java.lang.String"]}
+2017-03-29 09:50:49 INFO  RestClient:41 - Response: {"error":{"code":-32000,"message":"Method invocation error","data":"Method io.sterodium.extensions.node.rmi.TargetFactory.createImageTarget (parameter types: [img\\SO_icon.png]) threw exception java.lang.RuntimeException: Image file can not be loaded from img\\SO_icon.png"}}
+2017-03-29 09:54:16 INFO  RestClient:39 - Request: {"method":"setImagePrefix","arguments":["C:\\Users\\test3\\AppData\\Local\\Temp\\1490756102408-0"],"argumentClasses":["java.lang.String"]}
+2017-03-29 09:54:16 INFO  RestClient:41 - Response: {}
+2017-03-29 09:54:16 INFO  RestClient:39 - Request: {"method":"createImageTarget","arguments":["sikuli_img\\SO_icon.png"],"argumentClasses":["java.lang.String"]}
+2017-03-29 09:54:17 INFO  RestClient:41 - Response: {"value":"822f7544-4c0c-4d61-9ae9-b0984a544a2a","type":"org.sikuli.api.ImageTarget"}
+2017-03-29 09:54:17 INFO  RemoteObjectMethodInterceptor:110 - Converting response '822f7544-4c0c-4d61-9ae9-b0984a544a2a' to type class org.sikuli.api.ImageTarget or org.sikuli.api.ImageTarget
+2017-03-29 09:54:17 INFO  RestClient:39 - Request: {"method":"find","arguments":["822f7544-4c0c-4d61-9ae9-b0984a544a2a"],"argumentClasses":["org.sikuli.api.Target"]}
+2017-03-29 09:54:18 INFO  RestClient:41 - Response: {"value":"9b5bf586-8469-444f-86e1-51afae549bbb","type":"org.sikuli.api.DefaultScreenRegion"}
+2017-03-29 09:54:18 INFO  RemoteObjectMethodInterceptor:110 - Converting response '9b5bf586-8469-444f-86e1-51afae549bbb' to type interface org.sikuli.api.ScreenRegion or org.sikuli.api.DefaultScreenRegion
+2017-03-29 09:54:18 INFO  RestClient:39 - Request: {"method":"getCenter","arguments":[],"argumentClasses":[]}
+2017-03-29 09:54:18 INFO  RestClient:41 - Response: {"value":"73730a39-b802-420c-85c6-bbe1d44284d2","type":"org.sikuli.api.DefaultScreenLocation"}
+2017-03-29 09:54:18 INFO  RemoteObjectMethodInterceptor:110 - Converting response '73730a39-b802-420c-85c6-bbe1d44284d2' to type interface org.sikuli.api.ScreenLocation or org.sikuli.api.DefaultScreenLocation
+2017-03-29 09:54:18 INFO  RestClient:39 - Request: {"method":"doubleClick","arguments":["73730a39-b802-420c-85c6-bbe1d44284d2"],"argumentClasses":["org.sikuli.api.ScreenLocation"]}
+2017-03-29 09:54:19 INFO  RestClient:41 - Response: {}
+2017-03-29 09:54:19 INFO  RestClient:39 - Request: {"method":"createImageTarget","arguments":["sikuli_img\\UserName.png"],"argumentClasses":["java.lang.String"]}
+2017-03-29 09:54:19 INFO  RestClient:41 - Response: {"value":"6fbca305-8ff1-400e-ab2c-d78806f5ee9e","type":"org.sikuli.api.ImageTarget"}
+2017-03-29 09:54:19 INFO  RemoteObjectMethodInterceptor:110 - Converting response '6fbca305-8ff1-400e-ab2c-d78806f5ee9e' to type class org.sikuli.api.ImageTarget or org.sikuli.api.ImageTarget
+2017-03-29 09:54:19 INFO  RestClient:39 - Request: {"method":"find","arguments":["6fbca305-8ff1-400e-ab2c-d78806f5ee9e"],"argumentClasses":["org.sikuli.api.Target"]}
+2017-03-29 09:54:20 INFO  RestClient:41 - Response: {"type":"org.sikuli.api.ScreenRegion"}
+2017-03-29 10:18:32 INFO  RestClient:39 - Request: {"method":"setImagePrefix","arguments":["C:\\Users\\test3\\AppData\\Local\\Temp\\1490757557835-0"],"argumentClasses":["java.lang.String"]}
+2017-03-29 10:18:32 INFO  RestClient:41 - Response: {}
+2017-03-29 10:18:32 INFO  RestClient:39 - Request: {"method":"createImageTarget","arguments":["sikuli_img\\SO_icon.png"],"argumentClasses":["java.lang.String"]}
+2017-03-29 10:18:32 INFO  RestClient:41 - Response: {"value":"7726e9a0-f6da-4b25-9859-cceb25600ac7","type":"org.sikuli.api.ImageTarget"}
+2017-03-29 10:18:32 INFO  RemoteObjectMethodInterceptor:110 - Converting response '7726e9a0-f6da-4b25-9859-cceb25600ac7' to type class org.sikuli.api.ImageTarget or org.sikuli.api.ImageTarget
+2017-03-29 10:18:32 INFO  RestClient:39 - Request: {"method":"find","arguments":["7726e9a0-f6da-4b25-9859-cceb25600ac7"],"argumentClasses":["org.sikuli.api.Target"]}
+2017-03-29 10:18:34 INFO  RestClient:41 - Response: {"value":"23322e97-0e7c-4510-b2ae-717d1232c4d9","type":"org.sikuli.api.DefaultScreenRegion"}
+2017-03-29 10:18:34 INFO  RemoteObjectMethodInterceptor:110 - Converting response '23322e97-0e7c-4510-b2ae-717d1232c4d9' to type interface org.sikuli.api.ScreenRegion or org.sikuli.api.DefaultScreenRegion
+2017-03-29 10:18:34 INFO  RestClient:39 - Request: {"method":"getCenter","arguments":[],"argumentClasses":[]}
+2017-03-29 10:18:34 INFO  RestClient:41 - Response: {"value":"e1c9f7b8-89fe-4c15-9682-d87b410f1f6b","type":"org.sikuli.api.DefaultScreenLocation"}
+2017-03-29 10:18:34 INFO  RemoteObjectMethodInterceptor:110 - Converting response 'e1c9f7b8-89fe-4c15-9682-d87b410f1f6b' to type interface org.sikuli.api.ScreenLocation or org.sikuli.api.DefaultScreenLocation
+2017-03-29 10:18:34 INFO  RestClient:39 - Request: {"method":"doubleClick","arguments":["e1c9f7b8-89fe-4c15-9682-d87b410f1f6b"],"argumentClasses":["org.sikuli.api.ScreenLocation"]}
+2017-03-29 10:18:35 INFO  RestClient:41 - Response: {}
+2017-03-29 10:18:43 INFO  RestClient:39 - Request: {"method":"createImageTarget","arguments":["sikuli_img\\UserName.png"],"argumentClasses":["java.lang.String"]}
+2017-03-29 10:18:43 INFO  RestClient:41 - Response: {"value":"15766731-e41c-4392-bc6f-650cd815ac1c","type":"org.sikuli.api.ImageTarget"}
+2017-03-29 10:18:43 INFO  RemoteObjectMethodInterceptor:110 - Converting response '15766731-e41c-4392-bc6f-650cd815ac1c' to type class org.sikuli.api.ImageTarget or org.sikuli.api.ImageTarget
+2017-03-29 10:18:43 INFO  RestClient:39 - Request: {"method":"find","arguments":["15766731-e41c-4392-bc6f-650cd815ac1c"],"argumentClasses":["org.sikuli.api.Target"]}
+2017-03-29 10:18:43 INFO  RestClient:41 - Response: {"type":"org.sikuli.api.ScreenRegion"}
+2017-03-29 10:22:56 INFO  RestClient:39 - Request: {"method":"setImagePrefix","arguments":["C:\\Users\\test3\\AppData\\Local\\Temp\\1490757822279-0"],"argumentClasses":["java.lang.String"]}
+2017-03-29 10:22:56 INFO  RestClient:41 - Response: {}
+2017-03-29 10:22:56 INFO  RestClient:39 - Request: {"method":"createImageTarget","arguments":["sikuli_img\\SO_icon.png"],"argumentClasses":["java.lang.String"]}
+2017-03-29 10:22:56 INFO  RestClient:41 - Response: {"value":"b4031fda-f4b0-4819-b48f-c05f26b194b7","type":"org.sikuli.api.ImageTarget"}
+2017-03-29 10:22:56 INFO  RemoteObjectMethodInterceptor:110 - Converting response 'b4031fda-f4b0-4819-b48f-c05f26b194b7' to type class org.sikuli.api.ImageTarget or org.sikuli.api.ImageTarget
+2017-03-29 10:22:57 INFO  RestClient:39 - Request: {"method":"find","arguments":["b4031fda-f4b0-4819-b48f-c05f26b194b7"],"argumentClasses":["org.sikuli.api.Target"]}
+2017-03-29 10:22:58 INFO  RestClient:41 - Response: {"value":"14414b60-7f63-4cfa-a427-4ef9c4b0d676","type":"org.sikuli.api.DefaultScreenRegion"}
+2017-03-29 10:22:58 INFO  RemoteObjectMethodInterceptor:110 - Converting response '14414b60-7f63-4cfa-a427-4ef9c4b0d676' to type interface org.sikuli.api.ScreenRegion or org.sikuli.api.DefaultScreenRegion
+2017-03-29 10:22:58 INFO  RestClient:39 - Request: {"method":"getCenter","arguments":[],"argumentClasses":[]}
+2017-03-29 10:22:58 INFO  RestClient:41 - Response: {"value":"b21a3874-ae8d-48a2-80f9-65b5db021d50","type":"org.sikuli.api.DefaultScreenLocation"}
+2017-03-29 10:22:58 INFO  RemoteObjectMethodInterceptor:110 - Converting response 'b21a3874-ae8d-48a2-80f9-65b5db021d50' to type interface org.sikuli.api.ScreenLocation or org.sikuli.api.DefaultScreenLocation
+2017-03-29 10:22:58 INFO  RestClient:39 - Request: {"method":"doubleClick","arguments":["b21a3874-ae8d-48a2-80f9-65b5db021d50"],"argumentClasses":["org.sikuli.api.ScreenLocation"]}
+2017-03-29 10:22:59 INFO  RestClient:41 - Response: {}
+2017-03-29 10:23:07 INFO  RestClient:39 - Request: {"method":"createImageTarget","arguments":["sikuli_img\\UserName.png"],"argumentClasses":["java.lang.String"]}
+2017-03-29 10:23:07 INFO  RestClient:41 - Response: {"value":"9f368b4e-72a3-43e9-ac92-841a0555cadb","type":"org.sikuli.api.ImageTarget"}
+2017-03-29 10:23:07 INFO  RemoteObjectMethodInterceptor:110 - Converting response '9f368b4e-72a3-43e9-ac92-841a0555cadb' to type class org.sikuli.api.ImageTarget or org.sikuli.api.ImageTarget
+2017-03-29 10:23:07 INFO  RestClient:39 - Request: {"method":"find","arguments":["9f368b4e-72a3-43e9-ac92-841a0555cadb"],"argumentClasses":["org.sikuli.api.Target"]}
+2017-03-29 10:23:07 INFO  RestClient:41 - Response: {"value":"d2e59b8b-dcde-4f3d-b99b-e19f96e59cac","type":"org.sikuli.api.DefaultScreenRegion"}
+2017-03-29 10:23:07 INFO  RemoteObjectMethodInterceptor:110 - Converting response 'd2e59b8b-dcde-4f3d-b99b-e19f96e59cac' to type interface org.sikuli.api.ScreenRegion or org.sikuli.api.DefaultScreenRegion
+2017-03-29 10:23:07 INFO  RestClient:39 - Request: {"method":"getCenter","arguments":[],"argumentClasses":[]}
+2017-03-29 10:23:07 INFO  RestClient:41 - Response: {"value":"85cbfcda-ec02-4a0c-afd0-94b590247dd4","type":"org.sikuli.api.DefaultScreenLocation"}
+2017-03-29 10:23:07 INFO  RemoteObjectMethodInterceptor:110 - Converting response '85cbfcda-ec02-4a0c-afd0-94b590247dd4' to type interface org.sikuli.api.ScreenLocation or org.sikuli.api.DefaultScreenLocation
+2017-03-29 10:23:07 INFO  RestClient:39 - Request: {"method":"click","arguments":["85cbfcda-ec02-4a0c-afd0-94b590247dd4"],"argumentClasses":["org.sikuli.api.ScreenLocation"]}
+2017-03-29 10:23:08 INFO  RestClient:41 - Response: {}
+2017-03-29 10:23:08 INFO  RestClient:39 - Request: {"method":"type","arguments":["abcd"],"argumentClasses":["java.lang.String"]}
+2017-03-29 10:23:08 INFO  RestClient:41 - Response: {}
+2017-03-29 10:23:08 INFO  RestClient:39 - Request: {"method":"createImageTarget","arguments":["sikuli_img\\Password.png"],"argumentClasses":["java.lang.String"]}
+2017-03-29 10:23:08 INFO  RestClient:41 - Response: {"value":"bcdad1f5-9374-455e-81ba-b84ba77e25d4","type":"org.sikuli.api.ImageTarget"}
+2017-03-29 10:23:08 INFO  RemoteObjectMethodInterceptor:110 - Converting response 'bcdad1f5-9374-455e-81ba-b84ba77e25d4' to type class org.sikuli.api.ImageTarget or org.sikuli.api.ImageTarget
+2017-03-29 10:23:08 INFO  RestClient:39 - Request: {"method":"find","arguments":["bcdad1f5-9374-455e-81ba-b84ba77e25d4"],"argumentClasses":["org.sikuli.api.Target"]}
+2017-03-29 10:23:08 INFO  RestClient:41 - Response: {"value":"eb47dd8e-d36d-4560-bb25-8f5f82ed949d","type":"org.sikuli.api.DefaultScreenRegion"}
+2017-03-29 10:23:08 INFO  RemoteObjectMethodInterceptor:110 - Converting response 'eb47dd8e-d36d-4560-bb25-8f5f82ed949d' to type interface org.sikuli.api.ScreenRegion or org.sikuli.api.DefaultScreenRegion
+2017-03-29 10:23:08 INFO  RestClient:39 - Request: {"method":"getCenter","arguments":[],"argumentClasses":[]}
+2017-03-29 10:23:09 INFO  RestClient:41 - Response: {"value":"b976f642-e015-4416-963c-bb7f05fc2c26","type":"org.sikuli.api.DefaultScreenLocation"}
+2017-03-29 10:23:09 INFO  RemoteObjectMethodInterceptor:110 - Converting response 'b976f642-e015-4416-963c-bb7f05fc2c26' to type interface org.sikuli.api.ScreenLocation or org.sikuli.api.DefaultScreenLocation
+2017-03-29 10:23:09 INFO  RestClient:39 - Request: {"method":"click","arguments":["b976f642-e015-4416-963c-bb7f05fc2c26"],"argumentClasses":["org.sikuli.api.ScreenLocation"]}
+2017-03-29 10:23:09 INFO  RestClient:41 - Response: {}
+2017-03-29 10:23:09 INFO  RestClient:39 - Request: {"method":"type","arguments":["abcd"],"argumentClasses":["java.lang.String"]}
+2017-03-29 10:23:10 INFO  RestClient:41 - Response: {}
+2017-03-29 10:23:10 INFO  RestClient:39 - Request: {"method":"createImageTarget","arguments":["sikuli_img\\Go_Button.png"],"argumentClasses":["java.lang.String"]}
+2017-03-29 10:23:10 INFO  RestClient:41 - Response: {"value":"29141671-9813-44a3-8e90-9ccbaee82eda","type":"org.sikuli.api.ImageTarget"}
+2017-03-29 10:23:10 INFO  RemoteObjectMethodInterceptor:110 - Converting response '29141671-9813-44a3-8e90-9ccbaee82eda' to type class org.sikuli.api.ImageTarget or org.sikuli.api.ImageTarget
+2017-03-29 10:23:10 INFO  RestClient:39 - Request: {"method":"find","arguments":["29141671-9813-44a3-8e90-9ccbaee82eda"],"argumentClasses":["org.sikuli.api.Target"]}
+2017-03-29 10:23:10 INFO  RestClient:41 - Response: {"value":"73bd4a67-5a8c-4e0b-9de0-224d06121946","type":"org.sikuli.api.DefaultScreenRegion"}
+2017-03-29 10:23:10 INFO  RemoteObjectMethodInterceptor:110 - Converting response '73bd4a67-5a8c-4e0b-9de0-224d06121946' to type interface org.sikuli.api.ScreenRegion or org.sikuli.api.DefaultScreenRegion
+2017-03-29 10:23:10 INFO  RestClient:39 - Request: {"method":"getCenter","arguments":[],"argumentClasses":[]}
+2017-03-29 10:23:10 INFO  RestClient:41 - Response: {"value":"f37c9377-c9dc-44d5-af67-5cecfcc511e7","type":"org.sikuli.api.DefaultScreenLocation"}
+2017-03-29 10:23:10 INFO  RemoteObjectMethodInterceptor:110 - Converting response 'f37c9377-c9dc-44d5-af67-5cecfcc511e7' to type interface org.sikuli.api.ScreenLocation or org.sikuli.api.DefaultScreenLocation
+2017-03-29 10:23:10 INFO  RestClient:39 - Request: {"method":"click","arguments":["f37c9377-c9dc-44d5-af67-5cecfcc511e7"],"argumentClasses":["org.sikuli.api.ScreenLocation"]}
+2017-03-29 10:23:11 INFO  RestClient:41 - Response: {}
+2017-05-19 11:33:02 INFO  RetryExec:94 - I/O exception (java.net.SocketException) caught when processing request to {}->http://localhost:35420: Connection reset

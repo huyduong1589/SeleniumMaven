@@ -1,0 +1,13 @@
+2017-05-16 17:46:59 [pool-2-thread-1] INFO  TestResultListener - Started test 'RestAPI:API'
+2017-05-16 17:46:59 [pool-2-thread-1] INFO  API Test - *****************Start TC: 2*********************************
+2017-05-16 17:46:59 [pool-2-thread-1] INFO  API Test - METHOD: GET
+2017-05-16 17:47:01 [pool-2-thread-1] INFO  API Test - URL: http://restcountries.eu/rest/v1/name/vietnam
+2017-05-16 17:47:03 [pool-2-thread-1] INFO  API Test - RETURN: [{"name":"Vietnam","topLevelDomain":[".vn"],"alpha2Code":"VN","alpha3Code":"VNM","callingCodes":["84"],"capital":"Hanoi","altSpellings":["VN","Socialist Republic of Vietnam","C?ng hòa Xã h?i ch? ngh?a Vi?t Nam"],"relevance":"1.5","region":"Asia","subregion":"South-Eastern Asia","population":91812000,"latlng":[16.16666666,107.83333333],"demonym":"Vietnamese","area":331212.0,"gini":35.6,"timezones":["UTC+07:00"],"borders":["KHM","CHN","LAO"],"nativeName":"Vi?t Nam","numericCode":"704","currencies":["VND"],"languages":["vi"],"translations":{"de":"Vietnam","es":"Vietnam","fr":"Viêt Nam","ja":"????","it":"Vietnam"}}]
+2017-05-16 17:47:03 [pool-2-thread-1] INFO  API Test - 200
+2017-05-16 17:47:03 [pool-2-thread-1] INFO  API Test - Response contains : name
+2017-05-16 17:47:03 [pool-2-thread-1] INFO  API Test - Response contains : capital
+2017-05-16 17:47:03 [pool-2-thread-1] INFO  API Test - Response contains : region
+2017-05-16 17:47:03 [pool-2-thread-1] INFO  API Test - Response contains : Hanoi
+2017-05-16 17:47:03 [pool-2-thread-1] INFO  API Test - Added var1.1 : Hanoi
+2017-05-16 17:47:03 [pool-2-thread-1] INFO  API Test - Added var1.2 : 107.83333333
+2017-05-16 17:47:03 [pool-2-thread-1] INFO  API Test - Added var1.3 : LAO

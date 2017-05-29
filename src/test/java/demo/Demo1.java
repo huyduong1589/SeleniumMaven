@@ -35,14 +35,14 @@ public class Demo1 extends DriverFactory {
         
         //automation.utils.web.WebElementSupport2.clickSupport(userName, 20, 1000);
         
-        driver.findElement(By.id("password")).sendKeys("     ");
-        driver.findElement(By.id("password")).submit();
-        Thread.sleep(10000);
-        String currnetURL = driver.getCurrentUrl();
-        System.out.println("Current URL: " + currnetURL);
-        Assert.assertTrue(currnetURL.matches("https://webmail.tma.com.vn/#1"));
-        Thread.sleep(20000);
-        WebElementSupport2.findElementSupport(driver, new By.ByXPath("q"), 10);
+        //driver.findElement(By.id("password")).sendKeys("     ");
+        //driver.findElement(By.id("password")).submit();
+        //Thread.sleep(10000);
+        //String currnetURL = driver.getCurrentUrl();
+        //System.out.println("Current URL: " + currnetURL);
+        //Assert.assertTrue(currnetURL.matches("https://webmail.tma.com.vn/#1"));
+        //Thread.sleep(20000);
+        //WebElementSupport2.findElementSupport(driver, new By.ByXPath("q"), 10);
     }
 
 }
